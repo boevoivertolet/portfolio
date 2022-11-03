@@ -1,9 +1,14 @@
 .main {
     height: 100vh;
-    background: pink;
+    background: gray;
     border: 1px solid;
 }
+.mainContainer {
+    align-items: center;
+    justify-content: space-between;
 
+
+}
 
 .mainText {
     width: 300px;
