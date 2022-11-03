@@ -1,6 +1,29 @@
 .main {
-    height: 400px;
+    height: 100vh;
     background: pink;
     border: 1px solid;
+}
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.mainText {
+    width: 300px;
+    border: 1px solid;
+
+}
+
+.mainPhoto {
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+
 }

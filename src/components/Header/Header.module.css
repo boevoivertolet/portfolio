@@ -2,7 +2,6 @@
     height: 80px;
     border: 1px solid black;
     background: cornflowerblue;
-    margin-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
