@@ -1,26 +1,22 @@
-.skillsBlock {
+.myWorksBlock{
     height: 100vh;
-    background: pink;
+    background: aqua;
     border: 1px solid;
-
 }
 
-.skillsContainer {
+
+.myWorksContainer{
     align-items: center;
     flex-direction: column;
-
+}
+.title{
+    background-color: dimgray;
 }
 
-.title {
-    background-color: gainsboro;
-}
-
-.skills {
+.works{
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
-

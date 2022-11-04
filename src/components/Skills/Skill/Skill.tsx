@@ -3,6 +3,7 @@ import React from 'react';
 
 type SkillType = {
     title: string
+    description: string
 }
 
 
@@ -13,7 +14,7 @@ export const Skill = (props: SkillType) => {
                 <img src="" alt=""/>
             </div>
             <h3>{props.title}</h3>
-            <p></p>
+            <span className={styles.description}>{props.description}</span>
         </div>
     )
 
