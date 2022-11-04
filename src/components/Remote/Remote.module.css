@@ -1,0 +1,37 @@
+.remoteBlock {
+    height: 60vh;
+    background: #e2ff9c;
+    border: 1px solid;
+}
+
+.remoteContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    background-color: gainsboro;
+    margin: 3px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    text-decoration: none;
+}
+
+.content {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
