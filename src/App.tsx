@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills';
 import {MyWorks} from './components/MyWorks/MyWorks';
 import {Remote} from './components/Remote/Remote';
 import {Contacts} from './components/Contacts/Contacts';
+import {Footer} from './components/Footer/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <MyWorks/>
             <Remote/>
             <Contacts/>
+            <Footer/>
         </div>
     );
 }
