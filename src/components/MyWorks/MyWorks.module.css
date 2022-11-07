@@ -3,6 +3,7 @@
     background: aqua;
     border: 1px solid;
     min-width: 360px;
+    min-height: 100vh;
 }
 
 

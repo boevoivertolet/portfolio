@@ -5,9 +5,10 @@
 }
 
 .footerContainer {
-    flex-direction: row;
+    height: 280px;
+    flex-direction: column-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .title {
@@ -17,7 +18,7 @@
 
 
 .content {
-    height: 40%;
+    height: 200px;
     width: 80%;
     border: 1px solid;
     display: flex;
