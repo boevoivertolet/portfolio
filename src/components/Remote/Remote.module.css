@@ -1,7 +1,10 @@
 .remoteBlock {
-    height: 60vh;
+    height:30vh;
     background: #e2ff9c;
     border: 1px solid;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
 
 .remoteContainer {
