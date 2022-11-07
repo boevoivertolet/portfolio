@@ -3,5 +3,5 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
-
+    min-width: 360px;
 }

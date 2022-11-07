@@ -1,0 +1,53 @@
+.contactsBlock {
+    height: 60vh;
+    background: #5fffe3;
+    border: 1px solid;
+}
+
+.contactsContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title {
+    background-color: gainsboro;
+    margin: 3px;
+}
+
+
+
+.content {
+    height: 80%;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.form{
+    height: 20%;
+    width: 60%;
+    border:1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form textarea{
+    width: auto;
+}
+
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    text-decoration: none;
+}

@@ -5,6 +5,7 @@ import Main from './components/Main/Main';
 import Skills from './components/Skills/Skills';
 import {MyWorks} from './components/MyWorks/MyWorks';
 import {Remote} from './components/Remote/Remote';
+import {Contacts} from './components/Contacts/Contacts';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Skills/>
             <MyWorks/>
             <Remote/>
+            <Contacts/>
         </div>
     );
 }

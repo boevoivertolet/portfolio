@@ -1,7 +1,8 @@
 .skillsBlock {
-    height: 80vh;
+    height: auto;
     background: pink;
     border: 1px solid;
+    min-width: 360px;
 
 }
 
