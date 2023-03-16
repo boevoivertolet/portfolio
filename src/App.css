@@ -1,4 +1,11 @@
-.App {
-
+.App h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 33px;
 }
-
+h2 span {
+    color: #39EA92;
+}

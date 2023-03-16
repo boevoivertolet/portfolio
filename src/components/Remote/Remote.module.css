@@ -1,7 +1,7 @@
 .remoteBlock {
     height:30vh;
     background: #e2ff9c;
-
+    min-width: 360px;
 
 }
 

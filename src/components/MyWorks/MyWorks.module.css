@@ -1,6 +1,6 @@
 .myWorksBlock{
     height: auto;
-    background: aqua;
+    background:  #1F1F1F;
     border: 1px solid;
     min-width: 360px;
     min-height: 100vh;
@@ -16,8 +16,10 @@
     flex-direction: column;
 }
 .title{
-    background-color: dimgray;
+    background-color: transparent;
 }
+
+
 
 .works{
     border: 1px solid;

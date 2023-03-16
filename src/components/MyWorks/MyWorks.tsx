@@ -8,13 +8,15 @@ export const MyWorks = () => {
     let description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, voluptatibus!'
 
     return (
-        <div className={styles.myWorksBlock}>
-            <div className={`${styleContainer.container}  ${styles.myWorksContainer}`}>
-                <h2 className={styles.title}>My Works</h2>
-                <div className={styles.works}>
-                    <Work titleProject={'social network'} description={description}/>
-                    <Work titleProject={'todolist'} description={description}/>
-                    <Work titleProject={'counter'} description={description}/>
+        <div className = {styles.myWorksBlock}>
+            <div className = {`${styleContainer.container}  ${styles.myWorksContainer}`}>
+                <div className = {styles.title}>
+                    <h2>My <span>Projects</span></h2>
+                </div>
+                <div className = {styles.works}>
+                    <Work titleProject = {'social network'} description = {description} />
+                    <Work titleProject = {'todolist'} description = {description} />
+                    <Work titleProject = {'counter'} description = {description} />
                 </div>
             </div>
 

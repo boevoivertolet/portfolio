@@ -1,7 +1,7 @@
 .contactsBlock {
     height: auto;
     background: #5fffe3;
-
+    min-width: 360px;
     min-height: 70vh;
 }
 

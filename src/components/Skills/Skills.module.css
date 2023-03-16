@@ -1,6 +1,6 @@
 .skillsBlock {
     height: auto;
-    background: pink;
+    background: #1F1F1F;
     min-width: 360px;
     min-height: 100vh;
     display: flex;
@@ -18,7 +18,7 @@
 }
 
 .title {
-    background-color: gainsboro;
+    background-color: transparent;
 }
 
 .skills {
@@ -29,8 +29,8 @@
 
 }
 
-@media screen and (max-width: 701px){
-    .skills{
+@media screen and (max-width: 701px) {
+    .skills {
         justify-content: center;
     }
 
