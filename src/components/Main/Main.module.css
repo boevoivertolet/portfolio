@@ -1,7 +1,6 @@
 .main {
     height: 100vh;
     background: gray;
-    border: 1px solid;
     min-width: 360px;
 }
 .mainContainer {
@@ -23,3 +22,10 @@
     border: 1px solid;
 
 }
+@media screen and (max-width: 754px){
+    .mainContainer{
+        justify-content: center;
+    }
+
+}
+

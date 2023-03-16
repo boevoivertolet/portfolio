@@ -1,7 +1,6 @@
 .skillsBlock {
     height: auto;
     background: pink;
-    border: 1px solid;
     min-width: 360px;
     min-height: 100vh;
     display: flex;
@@ -23,7 +22,6 @@
 }
 
 .skills {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -31,3 +29,9 @@
 
 }
 
+@media screen and (max-width: 701px){
+    .skills{
+        justify-content: center;
+    }
+
+}

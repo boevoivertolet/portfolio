@@ -1,9 +1,15 @@
 .header {
     height: 80px;
-    border: 1px solid black;
     background: cornflowerblue;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     min-width: 360px;
+}
+
+@media screen and (max-width: 754px){
+    .header{
+        justify-content: center;
+    }
+
 }
