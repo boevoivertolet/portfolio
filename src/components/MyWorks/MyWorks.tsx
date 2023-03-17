@@ -11,12 +11,12 @@ export const MyWorks = () => {
         <div className = {styles.myWorksBlock}>
             <div className = {`${styleContainer.container}  ${styles.myWorksContainer}`}>
                 <div className = {styles.title}>
-                    <h2>My <span>Projects</span></h2>
+                    <h1>My <span>Projects</span></h1>
                 </div>
                 <div className = {styles.works}>
-                    <Work titleProject = {'social network'} description = {description} />
-                    <Work titleProject = {'todolist'} description = {description} />
-                    <Work titleProject = {'counter'} description = {description} />
+                    <Work titleProject = {'Casecook'} description = {description} />
+                    <Work titleProject = {'My todolist'} description = {description} />
+                    <Work titleProject = {'My counter'} description = {description} />
                 </div>
             </div>
 

@@ -2,6 +2,8 @@
     height: 100vh;
     background: gray;
     min-width: 360px;
+    background: #1F1F1F;
+
 }
 .mainContainer {
     align-items: center;
@@ -12,9 +14,13 @@
 
 .mainText {
     width: 300px;
-    border: 1px solid;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
 
 }
+
 
 .mainPhoto {
     width: 300px;

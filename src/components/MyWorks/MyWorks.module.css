@@ -18,11 +18,18 @@
 .title{
     background-color: transparent;
 }
+.myWorksBlock h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 33px;
+}
 
 
 
 .works{
-    border: 1px solid;
+
     width: 100%;
     display: flex;
     justify-content: space-between;
