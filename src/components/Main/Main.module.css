@@ -6,26 +6,34 @@
 
 }
 .mainContainer {
+
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 
 }
 
 .mainText {
     width: 300px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 1px solid white;
     padding: 10px;
     color: white;
+
 
 }
 
 
 .mainPhoto {
-    width: 300px;
-    height: 400px;
-    border: 1px solid;
+    border-radius: 20px;
+    max-width: 350px;
+    padding: 5px;
+    width: 350px;
+    height: 600px;
+    border: 1px solid #565656;
+    background: #1F1F1F;
+    position: fixed;
+    top: 100px;
 
 }
 @media screen and (max-width: 754px){

@@ -4,12 +4,12 @@ import React from 'react';
 type WorkType = {
     titleProject: string
     description: string
+    link: string
 }
 
 export const Work = (props: WorkType) => {
     return (
-
-      <a  href="https://github.com/boevoivertolet">
+      <a href={props.link}>
           <div className={styles.work}>
               <div>
                   <h2>{props.titleProject}</h2>

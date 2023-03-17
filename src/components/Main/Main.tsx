@@ -12,9 +12,7 @@ function Main() {
                     <h1>I am Alexander Beginin</h1>
                     <p>Frontend Developer.</p>
                 </div>
-                <div className={styles.mainPhoto}>
 
-                </div>
             </div>
         </div>
     );

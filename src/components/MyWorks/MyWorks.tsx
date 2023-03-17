@@ -14,9 +14,9 @@ export const MyWorks = () => {
                     <h1>My <span>Projects</span></h1>
                 </div>
                 <div className = {styles.works}>
-                    <Work titleProject = {'Casecook'} description = {description} />
-                    <Work titleProject = {'My todolist'} description = {description} />
-                    <Work titleProject = {'My counter'} description = {description} />
+                    <Work titleProject = {'Casecook'} description = {description}  link={'https://github.com/boevoivertolet/casecook'}/>
+                    <Work titleProject = {'My todolist'} description = {description} link={'https://github.com/boevoivertolet/todo'} />
+                    <Work titleProject = {'My counter'} description = {description} link={'https://github.com/boevoivertolet/training'}  />
                 </div>
             </div>
 
