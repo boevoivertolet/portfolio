@@ -1,5 +1,5 @@
 import styles from "../components/Main/Main.module.css";
-import MyPhoto from "../assetes/userPhoto.jpg";
+import MyPhoto from "../assetes/kotymba.jpg";
 import Header from "../components/Header/Header";
 import React from "react";
 
