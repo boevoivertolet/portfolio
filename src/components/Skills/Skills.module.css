@@ -29,7 +29,7 @@
 
 }
 
-@media screen and (max-width: 701px) {
+@media screen and (max-width: 780px) {
     .skills {
         justify-content: center;
     }

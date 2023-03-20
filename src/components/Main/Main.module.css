@@ -5,6 +5,7 @@
     background: #1F1F1F;
 
 }
+
 .mainContainer {
 
     align-items: center;
@@ -25,16 +26,6 @@
 
 
 .mainPhoto {
-    /*border-radius: 20px;*/
-    /*max-width: 350px;*/
-    /*padding: 5px;*/
-    /*width: 350px;*/
-    /*height: 600px;*/
-    /*border: 1px solid #565656;*/
-    /*background: #1F1F1F;*/
-    /*position: fixed;*/
-    /*top: 100px;*/
-    /*left:5px;*/
     width: 200px;
     border-radius: 30px;
     border: 1px solid #565656;
@@ -46,25 +37,47 @@
     z-index: 10;
 
 }
-@media screen and (max-width: 754px){
-    .mainContainer{
-        justify-content: center;
-    }
 
+.myPhoto {
+    width: 200px;
+    border-radius: 30px;
+
+}
+.myLogo {
+    display: flex;
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.myLogo span {
+    font-size: 12px;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 30px;
 
 }
 
-@media screen and (max-width: 760px){
-    .mainPhoto{
-        width: 200px;
+@media screen and (max-width: 780px) {
+    .mainContainer {
+        justify-content: center;
+
+    }
+    .mainPhoto {
+        width: auto;
         position: relative;
-        left: 35px;
-        top: 50%;
         transform: translateY(-50%);
         padding: 43px;
         z-index: 10;
-
+        margin-bottom: 0;
+        margin-left: 0;
 
     }
+
+
 }
 

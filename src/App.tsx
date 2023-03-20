@@ -8,6 +8,7 @@ import {Remote} from './components/Remote/Remote';
 import {Contacts} from './components/Contacts/Contacts';
 import {Footer} from './components/Footer/Footer';
 import styles from "./components/Main/Main.module.css";
+import MyPhoto from './assetes/userPhoto.jpg'
 
 
 function App() {
@@ -15,7 +16,12 @@ function App() {
     return (
         <div className = "App">
             <div className = {'left'}>
-                <div className = {styles.mainPhoto}><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+
+
+                <div className = {styles.mainPhoto}>
+                    <h2 className={styles.myLogo}>Alexander <span>Frontend developer</span></h2>
+                    <img className={styles.myPhoto}  src = {MyPhoto} alt = "#" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
                                                        aperiam assumenda consequatur, dignissimos dolore dolorem hic
                                                        illo ipsam iusto laborum laudantium nisi omnis quam repudiandae
                                                        suscipit totam ullam veniam voluptas.</p>
