@@ -1,11 +1,12 @@
 .App{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Inter', sans-serif;
     background: #1F1F1F;
+    margin: 0;
 }
 
 
@@ -22,6 +23,7 @@ h2 span {
     min-width: 400px;
     box-sizing: border-box;
     margin-top: 350px;
+
 
 }
 .right{
