@@ -3,14 +3,16 @@
     background: #1F1F1F;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    min-width: 360px;
-
+    justify-content: center;
+    min-width: 100px;
 }
+
+
 
 @media screen and (max-width: 754px){
     .header{
         justify-content: center;
+
     }
 
 }

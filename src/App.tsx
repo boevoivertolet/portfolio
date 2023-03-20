@@ -11,13 +11,18 @@ import styles from "./components/Main/Main.module.css";
 
 
 function App() {
+
     return (
         <div className = "App">
-            <div className={'left'}>
-                <div className = {styles.mainPhoto}></div>
+            <div className = {'left'}>
+                <div className = {styles.mainPhoto}><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                                                       aperiam assumenda consequatur, dignissimos dolore dolorem hic
+                                                       illo ipsam iusto laborum laudantium nisi omnis quam repudiandae
+                                                       suscipit totam ullam veniam voluptas.</p>
+                    <Header />
+                </div>
             </div>
-            <div className={'right'}>
-                <Header />
+            <div className = {'right'}>
                 <Main />
                 <Skills />
                 <MyWorks />
