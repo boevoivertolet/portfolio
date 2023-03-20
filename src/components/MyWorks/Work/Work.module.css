@@ -1,6 +1,5 @@
 .work {
     cursor: pointer;
-    /*width: 360px;*/
     background-color: transparent;
     display: flex;
     color: #999999;
@@ -12,7 +11,6 @@
     border-radius: 20px;
     transition: .3s;
     position: relative;
-    /*padding: 44px 48px 41px 48px;*/
     padding: 34px 38px 31px 38px;
     margin-bottom: 10px;
 }
@@ -25,7 +23,6 @@
 .description {
     font-weight: 100;
     font-size: 14px;
-
     margin-bottom: 30px;
 
 }

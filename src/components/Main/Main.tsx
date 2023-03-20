@@ -9,8 +9,9 @@ function Main() {
             <div className = {`${styles.mainContainer} ${styleContainer.container}`}>
                 <div className = {styles.mainText}>
                     <h1>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, explicabo.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Error</span>, explicabo.
                     </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, aspernatur?</p>
                 </div>
 
             </div>
