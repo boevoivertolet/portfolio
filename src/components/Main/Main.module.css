@@ -1,5 +1,5 @@
 .main {
-     min-height: 100vh;
+    min-height: 100vh;
     min-width: 360px;
     background: #1F1F1F;
     height: max-content;
@@ -16,8 +16,6 @@
 }
 
 .mainText {
-    align-self: flex-start;
-
     border-radius: 20px;
     border: 1px solid white;
     padding: 8px;
@@ -85,7 +83,7 @@
     .mainPhoto {
         width: auto;
         position: relative;
-        transform: translateY(-50%);
+        transform: translateY(0%);
         padding: 43px;
         z-index: 10;
         margin-bottom: 0;

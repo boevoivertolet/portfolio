@@ -19,18 +19,19 @@ h2 span {
     color: #39EA92;
 }
 .left{
+    align-self: self-start;
+    min-height: 60vh;
     flex: 40%;
     width: 360px;
     /*max-width: 400px;*/
     /*min-width: 400px;*/
     box-sizing: border-box;
-    margin-top: 350px;
+    max-width: 360px;
 
 
 
 }
 .right{
-
     flex: 60%;
     box-sizing: border-box;
 }
