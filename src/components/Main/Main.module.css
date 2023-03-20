@@ -24,13 +24,20 @@
 
 }
 
+.mainPhoto p {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
 
 .mainPhoto {
+
     width: 200px;
     border-radius: 30px;
     border: 1px solid #565656;
     position: fixed;
-    left: 35px;
+    /*left: 35px;*/
     top: 50%;
     transform: translateY(-50%);
     padding: 43px;
@@ -39,10 +46,14 @@
 }
 
 .myPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     border-radius: 30px;
 
 }
+
 .myLogo {
     display: flex;
     color: white;
@@ -52,6 +63,7 @@
     margin-bottom: 20px;
 
 }
+
 .myLogo span {
     font-size: 12px;
     padding: 0;
@@ -62,11 +74,12 @@
 
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 697px) {
     .mainContainer {
         justify-content: center;
 
     }
+
     .mainPhoto {
         width: auto;
         position: relative;
@@ -80,4 +93,5 @@
 
 
 }
+
 
