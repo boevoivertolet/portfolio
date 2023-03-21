@@ -11,7 +11,7 @@ export const MyWorks = () => {
         <div className = {styles.myWorksBlock}>
             <div className = {`${styleContainer.container}  ${styles.myWorksContainer}`}>
                 <div className = {styles.title}>
-                    <h1>My <span>Projects</span></h1>
+                    <h1>Мои <span>проекты:</span></h1>
                 </div>
                 <div className = {styles.works}>
                     <Work titleProject = {'Casecook'} description = {description}  link={'https://github.com/boevoivertolet/casecook'}/>

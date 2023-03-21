@@ -16,10 +16,11 @@ h1,h2{
 }
 
 h1 span {
-    color: #39EA92;
+    color: #26CBFC;
+    /*color: #39EA92;*/
 }
 h2 span {
-    color: #39EA92;
+    color: #26CBFC;
 }
 .left{
     align-self: self-start;

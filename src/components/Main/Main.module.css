@@ -20,6 +20,7 @@ h1 {
     line-height: 90px;
     margin-bottom: 43px;
     font-weight: 300;
+
 }
 
 .mainText {
@@ -34,11 +35,12 @@ h1 {
     font-weight: 100;
 }
 
+
 .mainPhoto {
 
     width: 200px;
     border-radius: 30px;
-    border: 1px solid #565656;
+    border: 1px solid #26CBFC;
     position: fixed;
     /*left: 35px;*/
     top: 50%;
