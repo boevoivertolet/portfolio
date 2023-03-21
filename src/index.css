@@ -17,3 +17,24 @@ body{
   color: #999999;
   line-height: 1.7;
 }
+#react:hover {
+  color: #26CBFC;
+}
+#redux:hover {
+  color: #764ABC;
+}
+#js:hover {
+  color: #FFCA28;
+}
+#ts:hover {
+  color: #007ACC;
+}
+#html:hover {
+  color: #E44D26;
+}
+#css:hover {
+  color: #0170BA;
+}
+#stack:hover {
+  color: #FF810F;
+}

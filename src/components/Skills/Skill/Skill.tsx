@@ -11,7 +11,7 @@ type SkillType = {
 
 export const Skill = (props: SkillType) => {
     return (
-        <div id = {props.id} className = {styles.skill}>
+        <div id = {props.id}   className = {styles.skill}>
             <div className = {styles.icon}>
                 <img src = {props.logo} alt = "" />
             </div>

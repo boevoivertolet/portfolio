@@ -1,7 +1,6 @@
 .main {
-
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 80vh;
     min-width: 360px;
     background: #1F1F1F;
     height: max-content;
@@ -16,7 +15,7 @@
 
 .mainText h1 {
     box-sizing: content-box;
-    font-size: 78px;
+    font-size: 48px;
     letter-spacing: -0.2px;
     line-height: 90px;
     /*margin-bottom: 43px;*/
@@ -30,6 +29,28 @@
     color: white;
     font-size: 13px;
     font-weight: 100;
+}
+.mainPhoto a{
+    box-sizing: border-box;
+    text-align: center;
+    color: #1F1F1F;
+    font-size: 17px;
+    font-weight: 100;
+}
+.mainPhoto a .resumeButton{
+    border: 1px solid #00CCFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #00CCFF;
+    transition: .3s;
+    cursor: pointer;
+
+}
+.mainPhoto a .resumeButton:hover{
+    border: 1px solid #00CCFF;
+    background: #1F1F1F;
+    color:#00CCFF;
+
 }
 
 

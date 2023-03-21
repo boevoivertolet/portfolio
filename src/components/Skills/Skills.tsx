@@ -14,15 +14,15 @@ function Skills() {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${styleContainer.container}  ${styles.skillsContainer}`}>
-                <h2 className={styles.title}>Мой <span>стэк:</span>  </h2>
+                <h2 className={styles.title}>Мой приоритетный <span>стэк</span>:  </h2>
                 <div className={styles.skills}>
-                    <Skill  id={'id1'} title={'React'} logo={reactLogo}/>
-                    <Skill id={'id2'}  title={'Redux'} logo={reduxLogo}/>
-                    <Skill  id={'id3'} title={'JS'} logo={jsLogo}/>
-                    <Skill  id={'id4'} title={'TS'} logo={tsLogo}/>
-                    <Skill id={'id5'} title={'HTML'} logo={htmlLogo}/>
-                    <Skill  id={'id6'} title={'CSS'} logo={cssLogo}/>
-                    <Skill id={'id7'} title={'Stack Overflow ;)'} logo={ofLogo}/>
+                    <Skill  id={'react'} title={'React'} logo={reactLogo}/>
+                    <Skill id={'redux'}  title={'Redux'} logo={reduxLogo}/>
+                    <Skill  id={'js'} title={'JavaScript'} logo={jsLogo}/>
+                    <Skill  id={'ts'} title={'TypeScript'} logo={tsLogo}/>
+                    <Skill id={'html'} title={'HTML'} logo={htmlLogo}/>
+                    <Skill  id={'css'} title={'CSS'} logo={cssLogo}/>
+                    <Skill id={'stack'} title={'Stack Overflow ;)'} logo={ofLogo}/>
                 </div>
             </div>
         </div>

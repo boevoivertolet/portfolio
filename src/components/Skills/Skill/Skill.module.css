@@ -1,3 +1,4 @@
+
 .skill {
     border-radius: 50%;
     width: 200px;
@@ -11,7 +12,7 @@
     /*height: max-content;*/
     /*padding-bottom: 10px;*/
     transition: transform 1.5s;
-    color: white;
+    color: transparent;
 
 }
 
@@ -21,9 +22,7 @@
     font-size: 13px;
 
 }
-#id1{
-    color: red;
-}
+
 
 
 .icon {

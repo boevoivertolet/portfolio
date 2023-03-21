@@ -11,7 +11,7 @@ export const PhotoCard = () => {
             <p>begininworkspace@gmail.com</p>
             <p>Живу в Санкт-Петербурге</p>
             <Header />
-            <p>©2023 All rights reserved</p>
+            <a href = "#"><div className={styles.resumeButton}>Моё резюме</div></a>
         </div>
     )
 }
