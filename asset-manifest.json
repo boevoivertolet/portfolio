@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.30d2c6c6.css",
-    "main.js": "/portfolio/static/js/main.895da5a6.js",
+    "main.css": "/portfolio/static/css/main.faa9c87d.css",
+    "main.js": "/portfolio/static/js/main.5047fc9c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/kotymba.jpg": "/portfolio/static/media/kotymba.cce3c0dd0e0f37e4aa51.jpg",
     "static/media/reduxLogo.png": "/portfolio/static/media/reduxLogo.d8e490e70614e8a80b2c.png",
@@ -12,12 +12,12 @@
     "static/media/jsLogo.png": "/portfolio/static/media/jsLogo.6bd1a9ffdceeb79f9969.png",
     "static/media/tsLogo.png": "/portfolio/static/media/tsLogo.0368a7e77031b4873551.png",
     "index.html": "/portfolio/index.html",
-    "main.30d2c6c6.css.map": "/portfolio/static/css/main.30d2c6c6.css.map",
-    "main.895da5a6.js.map": "/portfolio/static/js/main.895da5a6.js.map",
+    "main.faa9c87d.css.map": "/portfolio/static/css/main.faa9c87d.css.map",
+    "main.5047fc9c.js.map": "/portfolio/static/js/main.5047fc9c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30d2c6c6.css",
-    "static/js/main.895da5a6.js"
+    "static/css/main.faa9c87d.css",
+    "static/js/main.5047fc9c.js"
   ]
 }
