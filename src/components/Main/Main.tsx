@@ -4,14 +4,15 @@ import styleContainer from '../../common/styles/Container.module.css'
 
 
 function Main() {
+
     return (
         <div className = {styles.main}>
             <div className = {`${styles.mainContainer} ${styleContainer.container}`}>
                 <div className = {styles.mainText}>
                     <h1>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>Error</span>, explicabo.
+                        Всем привет! Спасибо, что решили посетить мою страницу. Меня зовут <span>Александр</span>.Я начинающий <span>Frontend</span> разработчик. Я  делаю <span>SPA</span> сайты.   Приоритетный стек: <span>ReactJS</span>,<span>Redux</span>,<span>TS/JS</span>.
                     </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, aspernatur?</p>
+                    <p>Я проектирую и кодирую красивые простые вещи, и мне нравится то, что я делаю.</p>
                 </div>
 
             </div>

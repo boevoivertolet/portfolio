@@ -14,7 +14,7 @@ function Skills() {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${styleContainer.container}  ${styles.skillsContainer}`}>
-                <h2 className={styles.title}>Вот этим я <span>умею</span> пользоваться: </h2>
+                <h2 className={styles.title}>Вот этим я <span>умею пользоваться:</span>  </h2>
                 <div className={styles.skills}>
                     <Skill  id={'id1'} title={'React'} logo={reactLogo}/>
                     <Skill id={'id2'}  title={'Redux'} logo={reduxLogo}/>
