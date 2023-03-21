@@ -24,7 +24,7 @@ h2 span {
 }
 .left{
     align-self: self-start;
-    min-height: 60vh;
+    min-height: 100vh;
     flex: 40%;
     width: 360px;
     /*max-width: 400px;*/
@@ -36,6 +36,9 @@ h2 span {
 
 }
 .right{
+    width: 360px;
+    align-self: self-end;
+    min-height: 100vh;
     flex: 60%;
     box-sizing: border-box;
 }

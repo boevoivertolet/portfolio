@@ -36,7 +36,7 @@
     flex-direction: column;
 
 }
-@media screen and (max-width: 770px){
+@media screen and (max-width: 900px){
     .works{
         justify-content: center;
     }
