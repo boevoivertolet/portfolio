@@ -20,7 +20,8 @@
 .title {
 
 }
-.skillsContainer h2{
+
+.skillsContainer h2 {
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     line-height: 60px;
@@ -32,14 +33,15 @@
 .skills {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-
+    flex-direction: row;
 }
 
-@media screen and (max-width: 697px) {
-    .skills {
-        justify-content: center;
-    }
 
-}
+/*@media screen and (max-width: 956px) {*/
+/*    .skills {*/
+/*        justify-content: center;*/
+/*    }*/
+
+/*}*/

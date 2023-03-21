@@ -1,6 +1,6 @@
 .work {
     cursor: pointer;
-    background-color: transparent;
+    background-color: #1F1F1F;
     display: flex;
     color: #999999;
     flex-direction: column;
@@ -9,15 +9,18 @@
     height: max-content;
     border: 1px solid #565656;
     border-radius: 20px;
-    transition: .3s;
+    /*transition: .3s;*/
     position: relative;
     padding: 34px 38px 31px 38px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    transition: transform 1.5s
 }
 
 .work:hover {
     border: 1px solid #198754;
     color: #198754;
+    transform: scale(1.1);
+    transition: 0.8s;
 }
 
 .description {

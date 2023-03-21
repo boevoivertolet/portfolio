@@ -8,9 +8,10 @@ export const PhotoCard = () => {
         <div className = {styles.mainPhoto}>
             <h2 className = {styles.myLogo}>Alexander <span>Frontend developer</span></h2>
             <img className = {styles.myPhoto} src = {MyPhoto} alt = "#" />
-            <p>bjha78rus@yandex.ru</p>
+            <p>begininworkspace@gmail.com</p>
             <p>Base in Saint-Petersburg</p>
             <Header />
+            <p>©2022 All rights reserved</p>
         </div>
     )
 }

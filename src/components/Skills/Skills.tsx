@@ -2,20 +2,27 @@ import React from 'react';
 import styles from './Skills.module.css'
 import styleContainer from '../../common/styles/Container.module.css'
 import {Skill} from './Skill/Skill';
+import reactLogo from '../../assetes/reactLogo.png'
+import reduxLogo from '../../assetes/reduxLogo.png'
+import jsLogo from '../../assetes/jsLogo.png'
+import tsLogo from '../../assetes/tsLogo.png'
+import htmlLogo from '../../assetes/htmlLogo.png'
+import cssLogo from '../../assetes/cssLogo.png'
+import ofLogo from '../../assetes/ofLogo.png'
 
 function Skills() {
-    let description = ' Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
     return (
         <div className={styles.skillsBlock}>
             <div className={`${styleContainer.container}  ${styles.skillsContainer}`}>
                 <h2 className={styles.title}>My <span>Skills</span></h2>
                 <div className={styles.skills}>
-                    <Skill description={description} title={'React'}/>
-                    <Skill description={description} title={'Redux'}/>
-                    <Skill description={description} title={'JS'}/>
-                    <Skill description={description} title={'HTML'}/>
-                    <Skill description={description} title={'CSS'}/>
-
+                    <Skill  id={'id1'} title={'React'} logo={reactLogo}/>
+                    <Skill id={'id2'}  title={'Redux'} logo={reduxLogo}/>
+                    <Skill  id={'id3'} title={'JS'} logo={jsLogo}/>
+                    <Skill  id={'id4'} title={'TS'} logo={tsLogo}/>
+                    <Skill id={'id5'} title={'HTML'} logo={htmlLogo}/>
+                    <Skill  id={'id6'} title={'CSS'} logo={cssLogo}/>
+                    <Skill id={'id7'} title={'Stack Overflow ;)'} logo={ofLogo}/>
                 </div>
             </div>
         </div>
