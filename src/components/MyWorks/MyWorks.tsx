@@ -17,7 +17,7 @@ export const MyWorks = () => {
                 </div>
                 <div className = {styles.works}>
                     <Work titleProject = {'Социальная сеть "Casecook"'} description = {descriptionCasecook}  link={'https://github.com/boevoivertolet/casecook'}/>
-                    <Work titleProject = {'Небольшой аналог "Trello" мой тудулист'} description = {descriptionTodo} link={'https://github.com/boevoivertolet/todo'} />
+                    <Work titleProject = {'Небольшой аналог "Trello" мой todolist'} description = {descriptionTodo} link={'https://github.com/boevoivertolet/todo'} />
                     <Work titleProject = {'Счётчики'} description = {descriptionCounter} link={'https://github.com/boevoivertolet/training'}  />
                 </div>
             </div>
