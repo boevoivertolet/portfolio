@@ -6,7 +6,7 @@ import {MyWorks} from './components/MyWorks/MyWorks';
 import {Remote} from './components/Remote/Remote';
 import {Contacts} from './components/Contacts/Contacts';
 import {Footer} from './components/Footer/Footer';
-import {PhotoCard} from "./PhotoCard/PhotoCard";
+import {PhotoCard} from "./components/PhotoCard/PhotoCard";
 
 
 function App() {

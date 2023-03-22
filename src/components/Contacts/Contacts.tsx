@@ -7,7 +7,7 @@ export const Contacts = () => {
     return (
         <div className = {styles.contactsBlock}>
             <h1 className = {styles.title}>Мы можем поработать <span>вместе</span>.</h1>
-            <p>begininworkspace@gmail.com</p>
+            <p>Со мной можно связаться по почте <span>begininworkspace@gmail.com</span>. Или заполнив форму.</p>
             <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
                 <div className = {styles.content}>
                     <form className = {styles.form}>
@@ -31,7 +31,9 @@ export const Contacts = () => {
                     </form>
                     <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
                 </div>
+
             </div>
+            <p>А так же я есть в социальных сетях.</p>
         </div>
 
     )

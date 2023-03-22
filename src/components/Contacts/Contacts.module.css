@@ -6,6 +6,10 @@
     text-align: center;
 
 }
+.contactsBlock span {
+  color: #00CCFF;
+
+}
 
 .contactsContainer {
     width: 90%;
@@ -15,6 +19,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 70vh;
+    transition: .3s;
 }
 
 .title {
@@ -71,10 +76,11 @@ h1 {
     max-height: 260px;
     overflow: auto;
     -moz-appearance: none;
-    outline:none;
+    outline: none;
     background: transparent;
 
 }
+
 .form input {
     border: none;
     margin-left: -1px;
@@ -95,7 +101,7 @@ h1 {
     max-height: 260px;
     overflow: auto;
     -moz-appearance: none;
-    outline:none;
+    outline: none;
     background: transparent;
 
 }
@@ -146,12 +152,18 @@ h1 {
     color: #00CCFF;
 }
 
+.contactsContainer:hover {
+    border: 1px solid #00CCFF;
+
+}
+
 @media screen and (max-width: 770px) {
     .form {
         width: 100%;
 
     }
-    .button{
+
+    .button {
         align-self: center;
     }
 
