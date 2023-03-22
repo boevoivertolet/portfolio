@@ -10,7 +10,7 @@
     text-align: center;
     transition: transform 1.5s;
     color: transparent;
-
+    cursor: pointer;
 }
 
 .description {
@@ -19,7 +19,6 @@
     font-size: 13px;
 
 }
-
 
 
 .icon {

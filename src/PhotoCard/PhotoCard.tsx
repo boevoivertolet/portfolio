@@ -14,7 +14,7 @@ export const PhotoCard = () => {
                 <p>begininworkspace@gmail.com</p>
                 <p>Живу в Санкт-Петербурге</p>
                 <Header />
-                <a href = "#">
+                <a target="_blank" href = "https://spb.hh.ru/resume/bf881214ff0bd2eca90039ed1f307262414d71">
                     <div className = {styles.resumeButton}>Моё резюме</div>
                 </a>
 
