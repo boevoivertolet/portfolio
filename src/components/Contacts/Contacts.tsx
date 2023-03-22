@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Contacts.module.css';
 import styleContainer from '../../common/styles/Container.module.css';
+import reactGif from '../../assetes/react.gif'
 
 export const Contacts = () => {
     return (
