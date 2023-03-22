@@ -19,17 +19,16 @@ export const Contacts = () => {
                             <input type = "text" name = "email" id = "email" placeholder = "Ваш почтовый адрес" />
                         </div>
                         <div className = {styles.inputGroup}>
-                            <label>Телефон(опционально)</label>
+                            <label>Телефон</label>
                             <input type = "text" name = "phone" id = "phone" placeholder = "Ваш номер телефона" />
                         </div>
                         <div className = {styles.inputGroup}>
                             <label>Сообщение</label>
-                            <textarea name = "message" id = "message"
+                            <textarea  name = "message" id = "message"
                                       placeholder = "Напишите своё сообщение для меня здесь ..."></textarea>
                         </div>
                     </form>
                     <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
-
                 </div>
             </div>
         </div>

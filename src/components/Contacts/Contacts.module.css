@@ -22,7 +22,6 @@
 }
 
 
-
 .content {
     height: 80%;
     width: 80%;
@@ -33,7 +32,8 @@
     justify-content: space-between;
 
 }
-h1{
+
+h1 {
     font-size: 48px;
     line-height: 60px;
     color: #fff;
@@ -41,28 +41,80 @@ h1{
     margin-bottom: 33px;
     background: transparent;
 }
-.form{
-    height: 100px;
-    width: 100%;
+
+.form {
+    border-bottom: 1px solid #999999;
+    min-height: 400px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.form textarea{
-    width: auto;
+
+.form textarea {
+    border: none;
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 140px;
+    resize: none;
+    display: block;
+    color: #fff;
+    width: 100%;
+    background: none;
+    font-size: 18px;
+    padding: 0;
+    transition: .2s;
+    box-sizing: border-box;
+
+    min-height: 20px;
+    max-height: 260px;
+    overflow: auto;
+    -moz-appearance: none;
+    outline:none;
+    background: transparent;
+
 }
+.form input {
+    border: none;
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 40px;
+    resize: none;
+    display: block;
+    color: #fff;
+    width: 100%;
+    background: none;
+    font-size: 18px;
+    padding: 0;
+    transition: .2s;
+    box-sizing: border-box;
+
+    min-height: 20px;
+    max-height: 260px;
+    overflow: auto;
+    -moz-appearance: none;
+    outline:none;
+    background: transparent;
+
+}
+
 .inputGroup {
     display: flex;
     flex-direction: column;
     margin: 5px;
     background: transparent;
 }
-.inputGroup sup{
-   color: #00CCFF;
+
+.inputGroup sup {
+    color: #00CCFF;
 }
-.inputGroup label{
+
+.inputGroup label {
     font-size: 15px;
     width: max-content;
+    color: white;
 }
 
 
@@ -84,13 +136,15 @@ h1{
     justify-content: center;
     text-decoration: none;
 }
+
 .button:hover {
     border: 1px solid #00CCFF;
     background: #1F1F1F;
-    color:#00CCFF;
+    color: #00CCFF;
 }
-@media screen and (max-width: 770px){
-    .form{
+
+@media screen and (max-width: 770px) {
+    .form {
         width: 100%;
     }
 
