@@ -1,4 +1,4 @@
-.App{
+.App {
     min-width: 360px;
     display: flex;
     flex-direction: row;
@@ -6,11 +6,12 @@
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Inter', sans-serif;
-    background: #1F1F1F;
+
 
 
 }
-h1,h2{
+
+h1, h2 {
     font-family: 'Inter', sans-serif;
     color: white;
 }
@@ -19,10 +20,12 @@ h1 span {
     color: #26CBFC;
     /*color: #39EA92;*/
 }
+
 h2 span {
     color: #26CBFC;
 }
-.left{
+
+.left {
     align-self: self-start;
     min-height: 100vh;
     flex: 40%;
@@ -31,11 +34,9 @@ h2 span {
     /*min-width: 400px;*/
     box-sizing: border-box;
     max-width: 360px;
-
-
-
 }
-.right{
+
+.right {
     width: 360px;
     align-self: self-end;
     min-height: 100vh;

@@ -1,6 +1,6 @@
 .work {
     cursor: pointer;
-    background-color: #1F1F1F;
+    background: transparent;
     display: flex;
     color: #999999;
     flex-direction: column;
@@ -9,7 +9,6 @@
     height: max-content;
     border: 1px solid #565656;
     border-radius: 20px;
-    /*transition: .3s;*/
     position: relative;
     padding: 34px 38px 31px 38px;
     margin-bottom: 20px;

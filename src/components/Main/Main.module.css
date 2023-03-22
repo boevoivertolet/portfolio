@@ -2,7 +2,7 @@
     flex-direction: column;
     min-height: 80vh;
     min-width: 360px;
-    background: #1F1F1F;
+    background: transparent;
     height: max-content;
 
 }
@@ -17,7 +17,6 @@
     font-size: 48px;
     letter-spacing: -0.2px;
     line-height: 90px;
-    /*margin-bottom: 43px;*/
     font-weight: 300;
 
 }
@@ -58,7 +57,7 @@
 
 .mainPhoto a .resumeButton:hover {
     border: 1px solid #00CCFF;
-    background: #1F1F1F;
+    background: transparent;
     color: #00CCFF;
 
 }

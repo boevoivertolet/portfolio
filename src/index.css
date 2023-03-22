@@ -12,8 +12,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
 body{
-  background: #1F1F1F;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url(assetes/bg6.jpg);
+  background-size: cover;
   font-size: 16px;
   color: #999999;
   line-height: 1.7;
