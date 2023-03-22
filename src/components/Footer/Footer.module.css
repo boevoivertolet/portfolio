@@ -11,7 +11,7 @@
     height: 280px;
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .title {
