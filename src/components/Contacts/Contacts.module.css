@@ -160,11 +160,12 @@ h1 {
 @media screen and (max-width: 770px) {
     .form {
         width: 100%;
+        height: auto;
 
     }
 
     .button {
-        align-self: center;
+
     }
 
 }
