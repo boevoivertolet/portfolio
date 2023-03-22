@@ -1,5 +1,5 @@
 .contactsBlock {
-    height: auto;
+    height: 100vh;
     background: transparent;
     min-width: 360px;
     min-height: 70vh;
@@ -18,7 +18,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    height: 70vh;
+    height: 70%;
     transition: .3s;
 }
 
