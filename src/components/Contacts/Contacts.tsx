@@ -6,9 +6,8 @@ export const Contacts = () => {
     return (
         <div className = {styles.contactsBlock}>
             <h1 className = {styles.title}>Мы можем поработать <span>вместе</span>.</h1>
+            <p>begininworkspace@gmail.com</p>
             <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
-
-                <p>begininworkspace@gmail.com</p>
                 <div className = {styles.content}>
                     <form className = {styles.form}>
                         <div className = {styles.inputGroup}>
@@ -29,7 +28,7 @@ export const Contacts = () => {
                                       placeholder = "Напишите своё сообщение для меня здесь ..."></textarea>
                         </div>
                     </form>
-                    <button type = {'submit'} className = {styles.button}> Send</button>
+                    <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
 
                 </div>
             </div>
