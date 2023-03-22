@@ -39,13 +39,8 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    min-height: 500px;
 }
 
 
 
-/*@media screen and (max-width: 956px) {*/
-/*    .skills {*/
-/*        justify-content: center;*/
-/*    }*/
-
-/*}*/
