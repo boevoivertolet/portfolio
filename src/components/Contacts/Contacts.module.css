@@ -138,7 +138,7 @@ h1 {
     background: #00CCFF;
     transition: .3s;
     cursor: pointer;
-    align-self: flex-start;
+    /*align-self: flex-start;*/
     height: 30px;
     display: flex;
     align-items: center;

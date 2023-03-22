@@ -1,6 +1,6 @@
 .main {
     flex-direction: column;
-    min-height: 40vh;
+    min-height: 100vh;
     min-width: 360px;
     background: transparent;
     height: max-content;
@@ -18,7 +18,7 @@
     letter-spacing: -0.2px;
     line-height: 90px;
     font-weight: 300;
-
+    width: 90%;
 }
 
 
