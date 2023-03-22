@@ -52,8 +52,9 @@ h1 {
     min-height: 400px;
     width: 90%;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .form textarea {
@@ -138,7 +139,7 @@ h1 {
     background: #00CCFF;
     transition: .3s;
     cursor: pointer;
-    /*align-self: flex-start;*/
+    align-self: flex-start;
     height: 30px;
     display: flex;
     align-items: center;
