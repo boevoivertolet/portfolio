@@ -20,7 +20,7 @@ function App() {
                 <Main />
                 <Skills />
                 <MyWorks />
-                <Remote />
+                {/*<Remote />*/}
                 <Contacts />
                 <Footer />
             </div>

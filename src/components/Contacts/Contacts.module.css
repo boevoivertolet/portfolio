@@ -3,6 +3,7 @@
     background: #1F1F1F;
     min-width: 360px;
     min-height: 70vh;
+    text-align: center;
 
 }
 
@@ -14,8 +15,7 @@
 }
 
 .title {
-    background-color: gainsboro;
-    margin: 3px;
+
 }
 
 
@@ -23,7 +23,6 @@
 .content {
     height: 80%;
     width: 80%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,15 +30,36 @@
     justify-content: space-between;
 
 }
+h1{
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 33px;
+    background: transparent;
+}
 .form{
     height: 100px;
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .form textarea{
     width: auto;
+}
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background: transparent;
+}
+.inputGroup sup{
+   color: #00CCFF;
+}
+.inputGroup label{
+    font-size: 15px;
+    width: max-content;
 }
 
 
