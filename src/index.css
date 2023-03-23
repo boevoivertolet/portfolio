@@ -15,7 +15,11 @@ code {
 
 
 body{
-background: #1F1F1F;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url(assetes/bg9.jpg);
+  background-size: cover;
 
 }
 #react:hover {
