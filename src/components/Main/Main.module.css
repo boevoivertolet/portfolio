@@ -66,15 +66,25 @@
 
 
 .mainPhoto {
+    /*margin-top: 10px;*/
+    /*text-align: center;*/
+    /*width: 200px;*/
+    /*border-radius: 30px;*/
+    /*border: 1px solid #26CBFC;*/
+    /*position: fixed;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    /*padding: 43px;*/
+    /*z-index: 10;*/
+    padding: 13px;
     margin-top: 10px;
     text-align: center;
-    width: 200px;
+    width: 260px;
     border-radius: 30px;
     border: 1px solid #26CBFC;
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    padding: 43px;
     z-index: 10;
 
 }
@@ -83,7 +93,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 100%;
     border-radius: 30px;
 
 }

@@ -36,7 +36,7 @@ h2 span {
 
 .left {
     align-self: self-start;
-    min-height: 100vh;
+    min-height: 10vh;
     flex: 40%;
     width: 360px;
     /*max-width: 400px;*/
