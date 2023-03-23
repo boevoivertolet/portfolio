@@ -5,7 +5,7 @@ import reactGif from '../../assetes/react.gif'
 
 export const Contacts = () => {
     return (
-        <div className = {styles.contactsBlock}>
+        <div className = {styles.contactsBlock}><article id ='contacts'></article>
             <h1 className = {styles.title}>Мы можем поработать <span>вместе</span>.</h1>
             <p>Со мной можно связаться по почте <span>begininworkspace@gmail.com</span>. Или заполнив форму.</p>
             <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>

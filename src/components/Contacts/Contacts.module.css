@@ -14,7 +14,7 @@
 .contactsContainer {
     padding: 10px;
     width: 90%;
-    border: 1px solid #999999;
+    border: 1px solid #00CCFF;
     border-radius: 25px;
     flex-direction: row;
     align-items: center;
@@ -49,7 +49,7 @@ h1 {
 }
 
 .form {
-    border-bottom: 1px solid #999999;
+    border-bottom: 1px solid #00CCFF;
     min-height: 400px;
     width: 100%;
     display: flex;
@@ -93,7 +93,6 @@ h1 {
     resize: none;
     display: block;
     color: #fff;
-    background: none;
     font-size: 18px;
     padding: 0;
     transition: .2s;
@@ -106,7 +105,9 @@ h1 {
     outline: none;
     background: transparent;
 
+
 }
+
 
 .inputGroup {
     display: flex;

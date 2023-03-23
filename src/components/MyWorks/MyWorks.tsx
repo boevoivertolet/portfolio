@@ -11,7 +11,7 @@ export const MyWorks = () => {
 
     return (
         <div className = {styles.myWorksBlock}>
-            <div className = {`${styleContainer.container}  ${styles.myWorksContainer}`}>
+            <div className = {`${styleContainer.container}  ${styles.myWorksContainer}`}><article id ='works'></article>
                 <div className = {styles.title}>
                     <h1>Мои <span>проекты:</span></h1>
                 </div>

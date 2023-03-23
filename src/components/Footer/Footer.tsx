@@ -17,7 +17,6 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p>Жду вас. До встречи!</p>
         </footer>
 
     )
