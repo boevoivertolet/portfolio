@@ -197,6 +197,14 @@ h1 {
         width: 100%;
 
     }
+    .form input {
+        font-size: 15px;
+
+    }
+    .form textarea {
+        font-size: 15px;
+
+    }
 
     .button {
         align-self: center;
