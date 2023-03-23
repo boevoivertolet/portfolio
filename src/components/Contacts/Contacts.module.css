@@ -1,8 +1,8 @@
 .contactsBlock {
-    height: auto;
+    height: 100%;
     background: transparent;
     min-width: 360px;
-    min-height: 70vh;
+    /*min-height: 100vh;*/
     text-align: center;
 
 }
@@ -12,13 +12,14 @@
 }
 
 .contactsContainer {
+    padding: 10px;
     width: 90%;
     border: 1px solid #999999;
     border-radius: 25px;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    height: 70vh;
+    height: 500px;
     transition: .3s;
 }
 
@@ -28,8 +29,8 @@
 
 
 .content {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,14 +51,15 @@ h1 {
 .form {
     border-bottom: 1px solid #999999;
     min-height: 400px;
-    width: 90%;
+    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
 }
 
 .form textarea {
+    align-self: center;
     border: none;
     margin-left: -1px;
     border-top-left-radius: 0;
@@ -67,7 +69,6 @@ h1 {
     display: block;
     color: #fff;
     width: 100%;
-    background: none;
     font-size: 18px;
     padding: 0;
     transition: .2s;
@@ -83,6 +84,7 @@ h1 {
 }
 
 .form input {
+    width: 50%;
     border: none;
     margin-left: -1px;
     border-top-left-radius: 0;
@@ -91,7 +93,6 @@ h1 {
     resize: none;
     display: block;
     color: #fff;
-    width: 100%;
     background: none;
     font-size: 18px;
     padding: 0;
@@ -110,8 +111,27 @@ h1 {
 .inputGroup {
     display: flex;
     flex-direction: column;
+    background: transparent;
+    width: 100%;
+}
+.inputPhone {
+    display: flex;
+    flex-direction: column;
     margin: 5px;
     background: transparent;
+    width: 100%;
+}
+.textareaGroup {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    width: 100%;
+}
+.textareaGroup label {
+    font-weight: 100;
+    font-size: 13px;
+    width: max-content;
+    color: white;
 }
 
 .inputGroup sup {
@@ -124,22 +144,25 @@ h1 {
     width: max-content;
     color: white;
 }
+.inputPhone label {
+    font-weight: 100;
+    font-size: 13px;
+    width: max-content;
+    color: white;
+}
 
 
 .button {
-    padding-left: 35px;
-    padding-right: 35px;
     width: max-content;
     font-size: 16px;
     color: #1F1F1F;
     line-height: 1.7;
     border: 1px solid #00CCFF;
-    box-sizing: content-box;
+    box-sizing: border-box;
     border-radius: 25px;
     background: #00CCFF;
     transition: .3s;
     cursor: pointer;
-    align-self: flex-start;
     height: 30px;
     display: flex;
     align-items: center;
@@ -155,6 +178,16 @@ h1 {
 
 .contactsContainer:hover {
     border: 1px solid #00CCFF;
+
+}
+.NameEmail{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.NameEmail input{
+    width: 100%;
 
 }
 
