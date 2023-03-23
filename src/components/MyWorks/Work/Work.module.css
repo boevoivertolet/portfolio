@@ -16,6 +16,7 @@
 }
 
 .work:hover {
+
     border: 1px solid #26CBFC;
     color: #26CBFC;
     transform: scale(1.1);
