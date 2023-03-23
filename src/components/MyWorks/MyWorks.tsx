@@ -10,8 +10,8 @@ export const MyWorks = () => {
     let descriptionCounter = 'Учебный проект, который я делал, когда обучался в "it-incubatore". Одна из проверочных работ. Реализация счётчика по возрастающей сложности. От простейшего через локальный стейт до применения Redux.'
 
     return (
-        <div className = {styles.myWorksBlock}>
-            <div className = {`${styleContainer.container}  ${styles.myWorksContainer}`}><article id ='works'></article>
+        <div className = {styles.myWorksBlock}><article id ='works'></article>
+            <div className = {`${styleContainer.container}  ${styles.myWorksContainer}`}>
                 <div className = {styles.title}>
                     <h1>Мои <span>проекты:</span></h1>
                 </div>

@@ -7,10 +7,10 @@ import {GitGif} from "./GitGif";
 function Main() {
 
     return (
-        <div  className = {styles.main}>
+        <div  className = {styles.main}><article id ='main'></article>
             <div className = {`${styles.mainContainer} ${styleContainer.container}`}>
                 <div className = {styles.mainText}>
-                    <h1><article id ='main'></article>
+                    <h1>
                         Всем привет! Спасибо, что решили посетить мою страницу. Меня зовут <span>Александр</span>. Я
                         начинающий <span>Frontend</span> разработчик. Разрабатываю одностраничные
                         приложения(<span>SPA</span>).

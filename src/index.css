@@ -1,57 +1,68 @@
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 
-body{
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-image: url(assetes/bg9.jpg);
-  background-size: cover;
+body {
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    /*background-attachment: fixed;*/
+    /*background-image: url(assetes/bg9.jpg);*/
+    /*background-size: cover;*/
+    background: #1F1F1F;
+}
 
-}
 #react:hover {
-  color: #26CBFC;
+    color: #26CBFC;
 }
+
 #redux:hover {
-  color: #764ABC;
+    color: #764ABC;
 }
+
 #js:hover {
-  color: #FFCA28;
+    color: #FFCA28;
 }
+
 #ts:hover {
-  color: #007ACC;
+    color: #007ACC;
 }
+
 #html:hover {
-  color: #E44D26;
+    color: #E44D26;
 }
+
 #css:hover {
-  color: #0170BA;
+    color: #0170BA;
 }
+
 #stack:hover {
-  color: #FF810F;
+    color: #FF810F;
 }
+
 #vkId:hover {
-  color: #1873F9;
+    color: #1873F9;
 }
+
 #instId:hover {
-  color: #F00FC4;
+    color: #F00FC4;
 }
+
 #telId:hover {
-  color: #1990CB;
+    color: #1990CB;
 }
+
 #skypeId:hover {
-  color: #26A6DB ;
+    color: #26A6DB;
 }
