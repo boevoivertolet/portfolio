@@ -12,8 +12,8 @@ import ofLogo from '../../assetes/ofLogo.png'
 
 function Skills() {
     return (
-        <div className={styles.skillsBlock}>
-            <div  className={`${styleContainer.container}  ${styles.skillsContainer}`}><article id ='skills'></article>
+        <div className={styles.skillsBlock}><article id ='skills'></article>
+            <div  className={`${styleContainer.container}  ${styles.skillsContainer}`}>
                 <h2 className={styles.title}>Мой приоритетный <span>стэк</span>:  </h2>
                 <div className={styles.skills}>
                     <Skill  id={'react'} title={'React'} logo={reactLogo} link={'https://ru.reactjs.org/'}/>
