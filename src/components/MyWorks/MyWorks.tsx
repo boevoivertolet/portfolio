@@ -13,7 +13,6 @@ export const MyWorks = () => {
         <div className = {`${styles.myWorksBlock} ${styleContainer.container}`}>
             <div className = {styles.myWorksContainer}>
                 <div className = {styles.title}>
-
                     <h1>Мои <span>проекты:</span></h1>
                 </div>
                 <div className = {styles.works}>

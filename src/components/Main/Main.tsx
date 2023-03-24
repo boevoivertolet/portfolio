@@ -6,7 +6,6 @@ import {GitGif} from "./GitGif";
 // {`${styles.main} ${styleContainer.container}`}
 
 function Main() {
-
     return (
         <>
             <div className = {`${styles.mainBlock} ${styleContainer.container}`}>

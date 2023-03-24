@@ -18,46 +18,4 @@ body {
     background: #1F1F1F;
 }
 
-#react:hover {
-    color: #26CBFC;
-}
 
-#redux:hover {
-    color: #764ABC;
-}
-
-#js:hover {
-    color: #FFCA28;
-}
-
-#ts:hover {
-    color: #007ACC;
-}
-
-#html:hover {
-    color: #E44D26;
-}
-
-#css:hover {
-    color: #0170BA;
-}
-
-#stack:hover {
-    color: #FF810F;
-}
-
-#vkId:hover {
-    color: #1873F9;
-}
-
-#instId:hover {
-    color: #F00FC4;
-}
-
-#telId:hover {
-    color: #1990CB;
-}
-
-#skypeId:hover {
-    color: #26A6DB;
-}

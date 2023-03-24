@@ -1,5 +1,4 @@
 .skillsBlock {
-
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
@@ -13,7 +12,6 @@
 }
 
 .skillsContainer {
-    ;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -23,7 +21,6 @@
 
 
 }
-
 
 .skillsContainer h2 {
     text-align: center;
