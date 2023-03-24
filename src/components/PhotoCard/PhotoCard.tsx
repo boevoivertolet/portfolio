@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import React from "react";
 import reactGif from "../../assetes/react.gif";
 import styleContainer from "../../common/styles/Container.module.css";
+import {Footer} from "../Footer/Footer";
 
 export const PhotoCard = () => {
     return (
@@ -18,7 +19,6 @@ export const PhotoCard = () => {
                 <a target="_blank" href = "https://spb.hh.ru/resume/bf881214ff0bd2eca90039ed1f307262414d71">
                     <div className = {styles.resumeButton}>Моё резюме</div>
                 </a>
-
             </div>
 
 

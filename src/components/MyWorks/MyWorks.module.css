@@ -1,5 +1,5 @@
 .myWorksBlock{
-
+    min-height: 100vh;
     order: 0;
     flex: 0 1 auto;
     align-self: auto;

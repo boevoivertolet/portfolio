@@ -24,8 +24,8 @@ function App() {
                 <MyWorks />
                 <article id ='contacts'></article>
                 <Contacts />
-                <Footer />
             </div>
+            <Footer/>
         </div>
     );
 }

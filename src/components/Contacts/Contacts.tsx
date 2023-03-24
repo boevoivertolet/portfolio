@@ -34,7 +34,6 @@ export const Contacts = () => {
                     </form>
                     <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
                 </div>
-
             </div>
         </div>
 

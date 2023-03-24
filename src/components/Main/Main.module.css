@@ -1,5 +1,5 @@
 .mainBlock {
-
+    min-height: 100vh;
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
@@ -159,14 +159,13 @@
 }
 .gifContainer{
     display: flex;
-    flex-direction: row;
+
+    flex-direction: column;
     justify-content: right;
     align-items: center;
-    width: 80%;
-    height: 350px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 760px) {
     .mainContainer {
         justify-content: center;
 
