@@ -1,6 +1,7 @@
 .footerBlock {
     align-items: center;
     justify-content: center;
+
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
@@ -43,6 +44,6 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 
 }
