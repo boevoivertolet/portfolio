@@ -18,4 +18,18 @@ body {
     background: #1F1F1F;
 }
 
+body::-webkit-scrollbar {
+    display: compact;
+    width: 12px; /* ширина всей полосы прокрутки */
+}
 
+body::-webkit-scrollbar-track {
+    background: black; /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+    /*background: linear-gradient(to bottom, #00CCFF, #999999); !* цвет бегунка *!*/
+    background: #999999; /* цвет бегунка */
+    border-radius: 8px; /* округлось бегунка */
+    /*border: 3px solid #00CCFF; !* отступ вокруг бегунка *!*/
+}
