@@ -3,6 +3,7 @@ import MyPhoto from "../../assetes/kotymba.jpg";
 import Header from "../Header/Header";
 import React from "react";
 import reactGif from "../../assetes/react.gif";
+import styleContainer from "../../common/styles/Container.module.css";
 
 export const PhotoCard = () => {
     return (

@@ -5,7 +5,8 @@ import styleContainer from '../../common/styles/Container.module.css';
 
 export const Contacts = () => {
     return (
-        <div className = {styles.contactsBlock}><article id ='contacts'></article>
+        <div className = {`${styles.contactsBlock} ${styleContainer.container}`}>
+
             <h1 className = {styles.title}>Мы можем поработать <span>вместе</span>.</h1>
             <p>Со мной можно связаться по почте <span>begininworkspace@gmail.com</span>. Или заполнив форму.</p>
             <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
@@ -35,7 +36,6 @@ export const Contacts = () => {
                 </div>
 
             </div>
-            <p>А так же я есть в социальных сетях.</p>
         </div>
 
     )

@@ -2,13 +2,13 @@ import React from 'react';
 import styles from './Main.module.css'
 import styleContainer from '../../common/styles/Container.module.css'
 import {GitGif} from "./GitGif";
-
+// {`${styles.main} ${styleContainer.container}`}
 
 function Main() {
 
     return (
-        <div  className = {styles.main}><article id ='main'></article>
-            <div className = {`${styles.mainContainer} ${styleContainer.container}`}>
+        <div  className ={`${styles.mainBlock} ${styleContainer.container}`} >
+            <div className = {styles.mainContainer} >
                 <div className = {styles.mainText}>
                     <h1>
                         Всем привет! Спасибо, что решили посетить мою страницу. Меня зовут <span>Александр</span>. Я

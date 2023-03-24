@@ -1,41 +1,38 @@
 .myWorksBlock{
+
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
     background: transparent;
     min-width: 360px;
-    /*min-height: 100vh;*/
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
 }
 
 
-.myWorksContainer{
-    height: 100%;
-    width: 100%;
+.myWorksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    height: 100%;
+    width: 90%;
 }
 .title{
     background: transparent;
 }
-.myWorksBlock h1 {
-    font-size: 48px;
-    line-height: 60px;
-    color: #fff;
-    font-weight: 300;
-    margin-bottom: 33px;
-}
-
-
 
 .works{
+    height: 100%;
+    box-sizing: border-box;
     width: 90%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
-    min-height: 100vh;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 @media screen and (max-width: 900px){

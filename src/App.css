@@ -1,5 +1,4 @@
 .App {
-
     min-width: 360px;
     display: flex;
     flex-direction: row;
@@ -17,6 +16,7 @@
     font-size: 16px;
     color: #999999;
     line-height: 1.7;
+
 
 }
 
@@ -46,6 +46,12 @@ h2 span {
 }
 
 .right {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
     width: 360px;
     align-self: self-end;
     min-height: 100vh;

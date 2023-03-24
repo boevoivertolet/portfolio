@@ -1,24 +1,28 @@
-.main {
+.mainBlock {
+
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
     flex-direction: column;
-    min-height: 100vh;
     min-width: 360px;
     background: transparent;
-    height: max-content;
+}
+.mainContainer{
     width: 100%;
+    text-align: center;
 
 }
-
 .mainText{
-    width: 90%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .mainText h1 {
-
-    box-sizing: content-box;
-    font-size: 48px;
+    box-sizing: border-box;
     letter-spacing: -0.2px;
     line-height: 90px;
-    font-weight: 300;
-    width: 100%;
+    width: 90%;
 }
 
 

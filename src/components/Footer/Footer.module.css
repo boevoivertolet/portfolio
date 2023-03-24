@@ -1,17 +1,20 @@
 .footerBlock {
-    height: auto;
+    align-items: center;
+    justify-content: center;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
     background: transparent;
-    min-width: 360px;
 }
 .footerBlock p{
     text-align: center;
 }
 
 .footerContainer {
-    height: 280px;
-    flex-direction: column-reverse;
-    align-items: center;
+    display: flex;
+    align-items: flex-start;
     justify-content: center;
+    width: 100%;
 }
 
 .title {
@@ -21,13 +24,12 @@
 
 
 .content {
-    height: 200px;
-    width: 80%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-direction: column-reverse;
+    height: 200px;
+    width: 100%;
+
+
 }
 .content h2{
     text-align: center;
@@ -39,10 +41,8 @@
 }
 .bar{
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
