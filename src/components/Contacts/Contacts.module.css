@@ -1,19 +1,12 @@
 .contactsBlock {
-
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
     min-height: 70vh;
     background: transparent;
-    min-width: 360px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-
-}
-.contactsBlock span {
-  color: #00CCFF;
 
 }
 
@@ -29,10 +22,6 @@
     transition: .3s;
 }
 
-.title {
-
-}
-
 
 .content {
     backdrop-filter: blur(5px);
@@ -46,14 +35,6 @@
 
 }
 
-h1 {
-    font-size: 48px;
-    line-height: 60px;
-    color: #fff;
-    font-weight: 300;
-    margin-bottom: 33px;
-    background: transparent;
-}
 
 .form {
     border-bottom: 1px solid #00CCFF;
@@ -122,18 +103,21 @@ h1 {
     background: transparent;
     width: 100%;
 }
+
 .inputPhone {
     display: flex;
     flex-direction: column;
     background: transparent;
     width: 100%;
 }
+
 .textareaGroup {
     display: flex;
     flex-direction: column;
     background: transparent;
     width: 100%;
 }
+
 .textareaGroup label {
     font-weight: 100;
     font-size: 13px;
@@ -151,6 +135,7 @@ h1 {
     width: max-content;
     color: white;
 }
+
 .inputPhone label {
     font-weight: 100;
     font-size: 13px;
@@ -187,13 +172,15 @@ h1 {
     border: 1px solid #00CCFF;
 
 }
-.NameEmail{
+
+.NameEmail {
     width: 100%;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
 }
-.NameEmail input{
+
+.NameEmail input {
     width: 100%;
 
 }
@@ -203,10 +190,12 @@ h1 {
         width: 100%;
 
     }
+
     .form input {
         font-size: 15px;
 
     }
+
     .form textarea {
         font-size: 15px;
 
@@ -217,4 +206,3 @@ h1 {
     }
 
 }
-

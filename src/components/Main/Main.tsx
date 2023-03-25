@@ -3,7 +3,6 @@ import styles from './Main.module.css'
 import styleContainer from '../../common/styles/Container.module.css'
 import {GitGif} from "./GitGif";
 
-// {`${styles.main} ${styleContainer.container}`}
 
 function Main() {
     return (
@@ -26,4 +25,3 @@ function Main() {
 }
 
 export default Main;
-

@@ -1,0 +1,151 @@
+.mainPhoto p {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.gif {
+    transition: transform 1.5s;
+    width: 60%;
+}
+
+.gif:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.mainPhoto a {
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.mainPhoto a .resumeButton {
+    border: 1px solid #00CCFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #00CCFF;
+    transition: .3s;
+    cursor: pointer;
+    color: #1F1F1F;
+    text-align: center;
+}
+
+.mainPhoto a .resumeButton:hover {
+    border: 1px solid #00CCFF;
+    background: transparent;
+    color: #00CCFF;
+
+}
+
+
+.mainPhoto {
+    backdrop-filter: blur(5px);
+    transition: transform 1.5s;
+    padding: 13px;
+    margin-top: 10px;
+    width: 260px;
+    border-radius: 30px;
+    border: 1px solid #9999;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+}
+
+.myPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+.myLogo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.myLogo span {
+    font-size: 12px;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+.mainPhoto:hover {
+    transition: 0.3s;
+
+}
+
+.gitImg {
+    width: 180px;
+    transition: transform 1.5s;
+    cursor: pointer;
+}
+
+.gitGif {
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.gitGif:hover {
+    transform: scale(1.1);
+
+
+}
+
+.main a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1.5s;
+
+}
+
+.gitGif span {
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+
+}
+
+.gifContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+    .mainPhoto {
+        width: auto;
+        position: relative;
+        transform: translateY(0%);
+        z-index: 10;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+}

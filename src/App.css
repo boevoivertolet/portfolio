@@ -1,5 +1,4 @@
 .App {
-
     height: auto;
     min-width: 360px;
     display: flex;
@@ -17,26 +16,43 @@
     color: #999999;
     line-height: 1.7;
 }
+
 html {
     scroll-behavior: smooth;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Inter', sans-serif;
-    color: white;
+    color: #fff;
+    box-sizing: border-box;
+    letter-spacing: -0.2px;
+    font-weight: 300;
+    margin-bottom: 33px;
+    background: transparent;
 }
 
-h1 span {
+h1 span, h2 span, h3 span {
     color: #26CBFC;
-    /*color: #39EA92;*/
 }
 
-h2 span {
-    color: #26CBFC;
+h1 {
+    line-height: 90px;
+    width: 90%;
+    font-size: 58px;
 }
+
+h2 {
+    font-size: 38px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 60px;
+}
+
 
 .left {
-
     align-self: self-start;
     min-height: 10vh;
     flex: 40%;
@@ -90,6 +106,7 @@ h2 span {
 #vkId:hover {
     color: #1873F9;
 }
+
 #instId:hover {
     color: #F00FC4;
 }

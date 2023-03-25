@@ -1,4 +1,4 @@
-import styles from "./Main.module.css";
+import styles from "../PhotoCard/PhotoCard.module.css";
 import gitGif from "../../assetes/git.gif";
 import React from "react";
 

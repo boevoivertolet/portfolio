@@ -1,11 +1,9 @@
-.myWorksBlock{
+.myWorksBlock {
     min-height: 100vh;
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
     background: transparent;
-    min-width: 360px;
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -21,11 +19,13 @@
     height: 100%;
     width: 90%;
 }
-.title{
+
+
+.title {
     background: transparent;
 }
 
-.works{
+.works {
     height: 100%;
     box-sizing: border-box;
     width: 90%;
@@ -35,8 +35,9 @@
     flex-direction: row;
 
 }
-@media screen and (max-width: 900px){
-    .works{
+
+@media screen and (max-width: 900px) {
+    .works {
         justify-content: center;
     }
 
