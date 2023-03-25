@@ -16,20 +16,56 @@ function App() {
                 <PhotoCard />
             </div>
             <div className = {'right'}>
-                <article id ='main'></article>
+                <article id = 'main'></article>
                 <Main />
-                <article id ='skills'></article>
+                <article id = 'skills'></article>
                 <Skills />
-                <article id ='works'></article>
+                <article id = 'works'></article>
                 <MyWorks />
-                <article id ='contacts'></article>
+                <article id = 'contacts'></article>
                 <Contacts />
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 }
 
+// <div className = "App">
+//     <div className = {'left'}>
+//         <PhotoCard />
+//     </div>
+//     <div className = {'right'}>
+//         <ScrollContainer>
+//             <ScrollPage>
+//                 <Animator animation = {Fade()}>
+//                     <article id = 'main'></article>
+//                     <Main />
+//                 </Animator>
+//             </ScrollPage>
+//
+//             <ScrollPage>
+//                 <Animator animation = {Fade()}>
+//                     <article id = 'skills'></article>
+//                     <Skills />
+//                 </Animator>
+//             </ScrollPage>
+//
+//             <ScrollPage>
+//                 <Animator animation = {Fade()}>
+//                     <article id = 'works'></article>
+//                     <MyWorks />
+//                 </Animator>
+//             </ScrollPage>
+//
+//             <ScrollPage>
+//                 <Animator animation = {Fade()}>
+//                     <article id = 'contacts'></article>
+//                     <Contacts />
+//                 </Animator>
+//             </ScrollPage>
+//         </ScrollContainer>
+//     </div>
+//     <Footer />
+// </div>
+
 export default App;
-
-
