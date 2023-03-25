@@ -1,7 +1,6 @@
 .footerBlock {
     align-items: center;
     justify-content: center;
-
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
@@ -16,6 +15,7 @@
     align-items: flex-start;
     justify-content: center;
     width: 100%;
+
 }
 
 .title {

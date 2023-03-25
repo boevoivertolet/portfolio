@@ -20,6 +20,7 @@
     color: #26CBFC;
     transform: scale(1.1);
     transition: 0.8s;
+    backdrop-filter: blur(10px);
 }
 
 .description {

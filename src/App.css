@@ -1,4 +1,5 @@
 .App {
+
     height: auto;
     min-width: 360px;
     display: flex;
@@ -35,6 +36,7 @@ h2 span {
 }
 
 .left {
+
     align-self: self-start;
     min-height: 10vh;
     flex: 40%;
