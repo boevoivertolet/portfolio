@@ -1,4 +1,5 @@
 .nav {
+    height: 100px;
     background: transparent;
     max-width: 360px;
     width: 250px;
@@ -12,32 +13,35 @@
 
 
 .navItem {
-    text-align: inherit;
-}
-
-.nav a {
-    color: #565656;
+    width: 60px;
     text-align: center;
+    height: 80%;
+    color: #565656;
     padding: 0;
     margin: 0;
-
-
+    text-decoration: none;
+}
+.navItem a{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: #999999;
+    align-items: center;
 }
 
-.nav a div {
+
+.navIcon {
+    border: 1px solid #999999;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #565656;
     border-radius: 50%;
     box-sizing: border-box;
     height: 40px;
     width: 40px;
-    transition: transform 1.0s
-
+    transition: transform 1.0s;
 }
-
-.nav a div:hover {
+.navIcon:hover {
     border: 1px solid #26CBFC;
     color: #26CBFC;
     transform: scale(1.2);
@@ -45,19 +49,11 @@
 
 }
 
-.nav a div i {
-    vertical-align: middle;
-    padding: 0;
-    margin: 0;
-}
+
 
 .titleNav {
-    position: absolute;
-    z-index: 111;
     background: transparent;
-    border-radius: 5px;
     color: #00CCFF;
     font-size: 12px;
-
 }
 

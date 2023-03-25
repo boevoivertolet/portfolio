@@ -11,16 +11,16 @@ export const NavItem = (props: NavItemPropsType) => {
         setDisplay(false)
     }
     return (
-        <div className = {styles.navItem}>
-            <a href = {props.address} onMouseEnter = {setDisplayTrue} onMouseLeave = {setDisplayFalse}>
-                <div>
-                    <i className = {props.className}></i>
-                </div>
-            </a>
-            {display && <span className = {styles.titleNav}>{props.title}</span>}
-        </div>
+       <div className = {styles.navItem}>
+           <a href = {props.address} onMouseEnter = {setDisplayTrue}
+              onMouseLeave = {setDisplayFalse}>
+               <div className={styles.navIcon}>
+                   <i className = {props.className}></i>
+               </div>
+               {display && <div className = {styles.titleNav}>{props.title}</div>}
+           </a>
+       </div>
     )
-
 }
 type NavItemPropsType = {
     address: string
