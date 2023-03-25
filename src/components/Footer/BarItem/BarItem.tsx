@@ -7,7 +7,7 @@ export const BarItem = (props: BarItem) => {
        <a href={props.link} target="_blank">
            <div id={props.id}  className = {styles.barItem}>
                <i className = {props.class}></i>
-               <span>{props.title}</span>
+               {/*<span>{props.title}</span>*/}
            </div>
        </a>
 

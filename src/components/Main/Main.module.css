@@ -45,7 +45,7 @@
 
 .mainPhoto a {
     box-sizing: border-box;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 17px;
     font-weight: 400;
 }
@@ -58,7 +58,7 @@
     transition: .3s;
     cursor: pointer;
     color: #1F1F1F;
-
+    text-align: center;
 }
 
 .mainPhoto a .resumeButton:hover {
@@ -73,7 +73,6 @@
     transition: transform 1.5s;
     padding: 13px;
     margin-top: 10px;
-    text-align: center;
     width: 260px;
     border-radius: 30px;
     border: 1px solid #26CBFC;

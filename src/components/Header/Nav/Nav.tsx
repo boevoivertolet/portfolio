@@ -1,21 +1,14 @@
 import React from 'react';
 import styles from './Nav.module.css'
+import {NavItem} from "./NavItem";
 
 function Nav() {
     return (
         <div className = {styles.nav}>
-            <a href = "#main">
-                <div><i className = "fa-solid fa-house"></i></div>
-            </a>
-            <a href = "#skills">
-                <div><i className = "fa-brands fa-react"></i></div>
-            </a>
-            <a href = "#works">
-                <div><i className = "fa-solid fa-diagram-project"></i></div>
-            </a>
-            <a href = "#contacts">
-                <div><i className = "fa-sharp fa-solid fa-address-card"></i></div>
-            </a>
+            <NavItem title={'home'} address={"#main"} className={"fa-solid fa-house"}/>
+            <NavItem title={'skills'} address={"#skills"} className={"fa-brands fa-react"}/>
+            <NavItem title={'works'} address={"#works"} className={"fa-solid fa-diagram-project"}/>
+            <NavItem title={'contacts'} address={"#contacts"} className={"fa-sharp fa-solid fa-address-card"}/>
         </div>
     );
 }
