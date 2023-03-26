@@ -10,6 +10,15 @@
 
 }
 
+.myWorksBlock::before {
+    content: '';
+    position: absolute;
+    bottom: -1950px;
+    width: 360px;
+    height: 1px;
+    background: #00CCFF;
+}
+
 
 .myWorksContainer {
     display: flex;
@@ -35,6 +44,16 @@
     flex-direction: row;
 
 }
+
+.works a {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+    height: max-content;
+}
+
 
 @media screen and (max-width: 900px) {
     .works {

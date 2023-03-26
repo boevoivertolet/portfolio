@@ -1,4 +1,5 @@
 .work {
+    width: 90%;
     margin-bottom: 20px;
     cursor: pointer;
     background: transparent;
@@ -31,13 +32,6 @@
 }
 
 
-a{
-    text-decoration: none;
-    height: max-content;
-}
-
-
-
 .icon img {
     width: 100%;
     height: 160px;
@@ -60,4 +54,3 @@ a{
     font-weight: 300;
     margin-bottom: 33px;
 }
-
