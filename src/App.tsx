@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './App.css';
 import Main from './components/Main/Main';
 import Skills from './components/Skills/Skills';
@@ -11,34 +11,20 @@ import Zoom from 'react-reveal/Zoom';
 
 
 function App() {
-    const [startAnimation, setStartAnimation] = useState<boolean>(false)
-
-    useEffect(() => {
-        setTimeout(() => {
-            setStartAnimation(true)
-        }, 1000)
-
-    })
-
     return (
-        
         <div className = "App">
             <div className = {'left'}>
                 <PhotoCard />
             </div>
             <div className = {'right'}>
-                {startAnimation &&
-                    <Zoom>
-                        <article id = 'main'></article>
-                        <Main />
-                        <article id = 'skills'></article>
-                        <Skills />
-                        <article id = 'works'></article>
-                        <MyWorks />
-                        <article id = 'contacts'></article>
-                        <Contacts />
-                    </Zoom>
-                }
+                <article id = 'main'></article>
+                <Main />
+                <article id = 'skills'></article>
+                <Skills />
+                <article id = 'works'></article>
+                <MyWorks />
+                <article id = 'contacts'></article>
+                <Contacts />
             </div>
             <Footer />
         </div>

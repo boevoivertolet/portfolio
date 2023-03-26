@@ -23,7 +23,6 @@ export const MyWorks = () => {
                           link = {'https://github.com/boevoivertolet/training'} />
                 </div>
             </div>
-
         </div>
     )
 }
