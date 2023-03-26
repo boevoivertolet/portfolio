@@ -25,7 +25,7 @@
 .mainText::before {
     content: '';
     position: absolute;
-    bottom: -390px;
+    bottom: 75px;
     width: 360px;
     height: 1px;
     background: #00CCFF;
