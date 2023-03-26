@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './MyWorks.module.css';
 import styleContainer from '../../common/styles/Container.module.css';
 import {Work} from './Work/Work';
+import {Title} from "../../common/components/Title";
 
 export const MyWorks = () => {
 
@@ -12,9 +13,7 @@ export const MyWorks = () => {
     return (
         <div className = {`${styles.myWorksBlock} ${styleContainer.container}`}>
             <div className = {styles.myWorksContainer}>
-                <div className = {styles.title}>
-                    <h2>Мои <span>проекты:</span></h2>
-                </div>
+                <Title text = {'Мои'} textSpan = {'проекты'} />
                 <div className = {styles.works}>
                     <Work titleProject = {'Социальная сеть "Casecook"'} description = {descriptionCasecook}
                           link = {'https://github.com/boevoivertolet/casecook'} />

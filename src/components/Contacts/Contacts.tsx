@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './Contacts.module.css';
 import styleContainer from '../../common/styles/Container.module.css';
+import {Title} from "../../common/components/Title";
 
 
 export const Contacts = () => {
     return (
         <div className = {`${styles.contactsBlock} ${styleContainer.container}`}>
-
-            <h2 className = {styles.title}>Мы можем поработать <span>вместе</span>.</h2>
+            <Title text = {'Мы можем поработать '} textSpan = {'вместе'} />
             <p>Со мной можно связаться по почте <span>begininworkspace@gmail.com</span>. Или заполнив форму.</p>
             <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
                 <div className = {styles.content}>
