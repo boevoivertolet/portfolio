@@ -1,0 +1,184 @@
+.contactsBlock {
+  text-align: center;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  min-height: 70vh;
+  background: transparent;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  .contactsContainer {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #00CCFF;
+    border-radius: 25px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    transition: .3s;
+
+
+  }
+
+  .content {
+    backdrop-filter: blur(5px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .button {
+      width: max-content;
+      font-size: 16px;
+      color: #1F1F1F;
+      line-height: 1.7;
+      border: 1px solid #00CCFF;
+      box-sizing: border-box;
+      border-radius: 25px;
+      background: #00CCFF;
+      transition: .3s;
+      cursor: pointer;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      @media screen and (max-width: 770px) {
+        align-self: center;
+      }
+
+      &:hover {
+        border: 1px solid #00CCFF;
+        background: transparent;
+        color: #00CCFF;
+      }
+    }
+
+  }
+
+  .form {
+    border-bottom: 1px solid #00CCFF;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    @media screen and (max-width: 770px) {
+      width: 100%;
+    }
+
+
+    label {
+      font-weight: 100;
+      font-size: 13px;
+      width: max-content;
+      color: white;
+    }
+
+    sup {
+      color: #00CCFF;
+    }
+
+    .formInput {
+      width: 50%;
+      border: none;
+      margin-left: -1px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      height: 40px;
+      resize: none;
+      display: block;
+      color: #fff;
+      font-size: 18px;
+      padding: 0;
+      transition: .2s;
+      box-sizing: border-box;
+      min-height: 20px;
+      max-height: 260px;
+      overflow: auto;
+      -moz-appearance: none;
+      outline: none;
+      background: transparent;
+      @media screen and (max-width: 770px) {
+        font-size: 15px;
+      }
+
+
+    }
+
+    .NameEmail {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+
+      input {
+        width: 100%;
+      }
+
+      .inputGroup {
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+        width: 100%;
+      }
+    }
+
+    .inputPhone {
+      display: flex;
+      flex-direction: column;
+      background: transparent;
+      width: 100%;
+
+    }
+
+    .textareaGroup {
+      display: flex;
+      flex-direction: column;
+      background: transparent;
+      width: 100%;
+
+      .textareaGroupLabel {
+        font-weight: 100;
+        font-size: 13px;
+        width: max-content;
+        color: white;
+      }
+
+      .formTextarea {
+        align-self: center;
+        border: none;
+        margin-left: -1px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        height: 140px;
+        resize: none;
+        display: block;
+        color: #fff;
+        width: 100%;
+        font-size: 18px;
+        padding: 0;
+        transition: .2s;
+        box-sizing: border-box;
+        min-height: 20px;
+        max-height: 260px;
+        overflow: auto;
+        -moz-appearance: none;
+        outline: none;
+        background: transparent;
+        @media screen and (max-width: 770px) {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+
+}
