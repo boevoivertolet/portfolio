@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.457dd6c3.css",
-    "main.js": "/portfolio/static/js/main.2f415e2c.js",
+    "main.css": "/portfolio/static/css/main.a2754d3a.css",
+    "main.js": "/portfolio/static/js/main.66be75de.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/kotymba.jpg": "/portfolio/static/media/kotymba.cce3c0dd0e0f37e4aa51.jpg",
     "static/media/react.gif": "/portfolio/static/media/react.fe12582299ed04f3686b.gif",
@@ -11,16 +11,17 @@
     "static/media/reactLogo.png": "/portfolio/static/media/reactLogo.20adfb35ae6a6e5817bf.png",
     "static/media/htmlLogo.png": "/portfolio/static/media/htmlLogo.f659493242862cb3476a.png",
     "static/media/ofLogo.png": "/portfolio/static/media/ofLogo.f3cf13bf86bd50bacbb5.png",
+    "static/media/social.png": "/portfolio/static/media/social.a46946170b778713e807.png",
     "static/media/jsLogo.png": "/portfolio/static/media/jsLogo.6bd1a9ffdceeb79f9969.png",
     "static/media/tsLogo.png": "/portfolio/static/media/tsLogo.0368a7e77031b4873551.png",
     "static/media/gitHubImg.jpg": "/portfolio/static/media/gitHubImg.987334e9f782cc505f25.jpg",
     "index.html": "/portfolio/index.html",
-    "main.457dd6c3.css.map": "/portfolio/static/css/main.457dd6c3.css.map",
-    "main.2f415e2c.js.map": "/portfolio/static/js/main.2f415e2c.js.map",
+    "main.a2754d3a.css.map": "/portfolio/static/css/main.a2754d3a.css.map",
+    "main.66be75de.js.map": "/portfolio/static/js/main.66be75de.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.457dd6c3.css",
-    "static/js/main.2f415e2c.js"
+    "static/css/main.a2754d3a.css",
+    "static/js/main.66be75de.js"
   ]
 }
