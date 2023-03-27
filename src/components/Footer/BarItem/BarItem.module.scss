@@ -1,5 +1,7 @@
+@import '../../../common/styles/sass/variables';
+
 .barItem {
-  color: #999999;
+  color: $lowTextColor;
   display: flex;
   align-items: center;
   justify-content: center;

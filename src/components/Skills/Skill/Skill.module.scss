@@ -1,3 +1,4 @@
+@import 'src/common/styles/sass/variables';
 
 .skill {
   border-radius: 50%;
@@ -23,7 +24,7 @@
   &:hover {
     transform: scale(1.1);
     transition: 0.8s;
-    color: #26CBFC;
+    color: $primaryColor;
 
 
   }

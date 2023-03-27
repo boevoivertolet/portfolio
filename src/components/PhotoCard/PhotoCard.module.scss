@@ -1,3 +1,5 @@
+@import 'src/common/styles/sass/variables';
+
 .mainPhoto {
   backdrop-filter: blur(5px);
   transition: transform 1.5s;
@@ -5,7 +7,7 @@
   margin-top: 10px;
   width: 260px;
   border-radius: 30px;
-  border: 1px solid #9999;
+  border: 1px solid $lowTextColor;
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
@@ -25,19 +27,19 @@
   }
 
   .resumeButton {
-    border: 1px solid #00CCFF;
+    border: 1px solid $primaryColor;
     box-sizing: border-box;
     border-radius: 25px;
-    background: #00CCFF;
+    background: $primaryColor;
     transition: .3s;
     cursor: pointer;
-    color: #1F1F1F;
+    color: $backgroundColor;
     text-align: center;
 
     &:hover {
-      border: 1px solid #00CCFF;
+      border: 1px solid $primaryColor;
       background: transparent;
-      color: #00CCFF;
+      color: $primaryColor;
 
     }
   }
@@ -50,7 +52,7 @@
 
   p {
     text-align: center;
-    color: white;
+    color: $textColor;
     font-size: 13px;
     font-weight: 100;
   }

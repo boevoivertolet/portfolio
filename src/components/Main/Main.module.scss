@@ -1,3 +1,5 @@
+@import 'src/common/styles/sass/variables';
+
 .mainBlock {
   min-height: 100vh;
   order: 0;
@@ -48,7 +50,7 @@
         bottom: 75px;
         width: 360px;
         height: 1px;
-        background: #00CCFF;
+        background: $primaryColor;
       }
     }
 

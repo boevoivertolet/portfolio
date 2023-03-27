@@ -1,3 +1,5 @@
+@import '../../common/styles/sass/variables';
+
 .contactsBlock {
   text-align: center;
   order: 0;
@@ -12,7 +14,7 @@
   .contactsContainer {
     padding: 10px;
     width: 90%;
-    border: 1px solid #00CCFF;
+    border: 1px solid $primaryColor;
     border-radius: 25px;
     flex-direction: row;
     align-items: center;
@@ -32,16 +34,17 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 
     .button {
       width: max-content;
       font-size: 16px;
-      color: #1F1F1F;
+      color: $backgroundColor;
       line-height: 1.7;
-      border: 1px solid #00CCFF;
+      border: 1px solid $primaryColor;
       box-sizing: border-box;
       border-radius: 25px;
-      background: #00CCFF;
+      background: $primaryColor;
       transition: .3s;
       cursor: pointer;
       height: 30px;
@@ -54,16 +57,16 @@
       }
 
       &:hover {
-        border: 1px solid #00CCFF;
+        border: 1px solid $primaryColor;
         background: transparent;
-        color: #00CCFF;
+        color: $primaryColor;
       }
     }
 
   }
 
   .form {
-    border-bottom: 1px solid #00CCFF;
+    border-bottom: 1px solid $primaryColor;
     min-height: 400px;
     width: 100%;
     display: flex;
@@ -79,11 +82,11 @@
       font-weight: 100;
       font-size: 13px;
       width: max-content;
-      color: white;
+      color: $textColor;
     }
 
     sup {
-      color: #00CCFF;
+      color: $primaryColor;
     }
 
     .formInput {
@@ -95,7 +98,7 @@
       height: 40px;
       resize: none;
       display: block;
-      color: #fff;
+      color: $textColor;
       font-size: 18px;
       padding: 0;
       transition: .2s;
@@ -149,7 +152,7 @@
         font-weight: 100;
         font-size: 13px;
         width: max-content;
-        color: white;
+        color: $textColor;
       }
 
       .formTextarea {
@@ -161,7 +164,7 @@
         height: 140px;
         resize: none;
         display: block;
-        color: #fff;
+        color: $textColor;
         width: 100%;
         font-size: 18px;
         padding: 0;

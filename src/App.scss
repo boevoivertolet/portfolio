@@ -1,3 +1,5 @@
+@import 'common/styles/sass/variables';
+
 .App {
   height: auto;
   min-width: 360px;
@@ -13,7 +15,7 @@
   background-image: url(assetes/bg9.jpg);
   background-size: cover;
   font-size: 16px;
-  color: #999999;
+  color: $lowTextColor;
   line-height: 1.7;
 
   .left {
@@ -94,7 +96,7 @@
   }
 
   h1, h2, h3 {
-    color: #fff;
+    color: $textColor;
     box-sizing: border-box;
     letter-spacing: -0.2px;
     font-weight: 200;
@@ -104,7 +106,7 @@
 
 
   h1 span, h2 span, h3 span {
-    color: #26CBFC;
+    color: $primaryColor;
   }
 
   h1 {
