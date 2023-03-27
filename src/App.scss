@@ -1,0 +1,127 @@
+.App {
+  height: auto;
+  min-width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Inter', sans-serif;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url(assetes/bg9.jpg);
+  background-size: cover;
+  font-size: 16px;
+  color: #999999;
+  line-height: 1.7;
+
+  .left {
+    align-self: self-start;
+    min-height: 10vh;
+    flex: 40%;
+    width: 360px;
+    box-sizing: border-box;
+    max-width: 360px;
+  }
+
+  .right {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 360px;
+    align-self: self-end;
+    min-height: 100vh;
+    flex: 60%;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+
+
+  #react:hover {
+    color: #26CBFC;
+  }
+
+  #redux:hover {
+    color: #764ABC;
+  }
+
+  #js:hover {
+    color: #FFCA28;
+  }
+
+  #ts:hover {
+    color: #007ACC;
+  }
+
+  #html:hover {
+    color: #E44D26;
+  }
+
+  #css:hover {
+    color: #0170BA;
+  }
+
+  #stack:hover {
+    color: #FF810F;
+  }
+
+  #vkId:hover {
+    color: #1873F9;
+  }
+
+  #instId:hover {
+    color: #F00FC4;
+  }
+
+  #telId:hover {
+    color: #1990CB;
+  }
+
+  #skypeId:hover {
+    color: #26A6DB;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3 {
+    color: #fff;
+    box-sizing: border-box;
+    letter-spacing: -0.2px;
+    font-weight: 200;
+    margin-bottom: 33px;
+    background: transparent;
+  }
+
+
+  h1 span, h2 span, h3 span {
+    color: #26CBFC;
+  }
+
+  h1 {
+    line-height: 90px;
+    width: 100%;
+    font-size: 58px;
+  }
+
+  h2 {
+    font-size: 38px;
+    line-height: 60px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 60px;
+  }
+
+
+}
