@@ -1,4 +1,4 @@
-import styles from './Skill.module.css';
+import styles from './Skill.module.scss';
 import React from 'react';
 // @ts-ignore
 import Fade from 'react-reveal/Fade';
