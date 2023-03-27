@@ -1,4 +1,4 @@
-import styles from "../../components/MyWorks/MyWorks.module.css";
+import styles from "../../components/MyWorks/MyWorks.module.scss";
 import React from "react";
 
 export const Title = (props: TitlePropsType) => {

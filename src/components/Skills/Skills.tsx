@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Skills.module.css'
-import styleContainer from '../../common/styles/Container.module.css'
+import styleContainer from '../../common/styles/Container.module.scss'
 import {Skill} from './Skill/Skill';
 import reactLogo from '../../assetes/reactLogo.png'
 import reduxLogo from '../../assetes/reduxLogo.png'

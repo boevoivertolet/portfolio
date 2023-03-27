@@ -1,0 +1,48 @@
+.workContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .work {
+    width: 90%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: transparent;
+    display: flex;
+    color: #999999;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    height: max-content;
+    border: 1px solid #565656;
+    border-radius: 20px;
+    position: relative;
+    padding: 14px 14px 14px 14px;
+    transition: transform 1.5s;
+
+    &:hover {
+      border: 1px solid #26CBFC;
+      color: #26CBFC;
+      transform: scale(1.1);
+      transition: 0.8s;
+      backdrop-filter: blur(10px);
+
+    }
+
+    .TitleDescription {
+      .workTitle {
+        font-size: 28px;
+        line-height: 60px;
+        color: #fff;
+        font-weight: 300;
+        margin-bottom: 33px;
+      }
+
+      .description {
+        font-weight: 100;
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

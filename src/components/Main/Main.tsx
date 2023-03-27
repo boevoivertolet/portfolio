@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css'
-import styleContainer from '../../common/styles/Container.module.css'
+import styleContainer from '../../common/styles/Container.module.scss'
 import {GitGif} from "./GitGif";
 // @ts-ignore
 import Zoom from 'react-reveal/Zoom';
