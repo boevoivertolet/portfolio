@@ -1,4 +1,4 @@
-import styles from "../PhotoCard/PhotoCard.module.css";
+import styles from "../Main/GitGif.module.scss";
 import gitGif from "../../assetes/gitHubImg.jpg";
 import React, {useEffect, useState} from "react";
 // @ts-ignore

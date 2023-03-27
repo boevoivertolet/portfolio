@@ -1,0 +1,99 @@
+.mainPhoto {
+  backdrop-filter: blur(5px);
+  transition: transform 1.5s;
+  padding: 13px;
+  margin-top: 10px;
+  width: 260px;
+  border-radius: 30px;
+  border: 1px solid #9999;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  @media screen and (max-width: 760px) {
+    width: auto;
+    position: relative;
+    transform: translateY(0%);
+    z-index: 10;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  &:hover {
+    transition: 0.3s;
+
+  }
+
+  .resumeButton {
+    border: 1px solid #00CCFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #00CCFF;
+    transition: .3s;
+    cursor: pointer;
+    color: #1F1F1F;
+    text-align: center;
+
+    &:hover {
+      border: 1px solid #00CCFF;
+      background: transparent;
+      color: #00CCFF;
+
+    }
+  }
+
+  a {
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  p {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+  }
+
+  .myLogo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+    span {
+      font-size: 12px;
+      padding: 0;
+      box-sizing: border-box;
+      font-weight: 100;
+      margin-bottom: 20px;
+      margin-left: 30px;
+
+    }
+
+  }
+
+  .myPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 30px;
+
+  }
+
+
+  .gif {
+    transition: transform 1.5s;
+    width: 60%;
+
+    :hover {
+      transform: scale(1.2);
+      transition: 0.3s;
+    }
+  }
+
+}

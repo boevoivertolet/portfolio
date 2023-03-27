@@ -1,4 +1,4 @@
-import styles from "./PhotoCard.module.css";
+import styles from "./PhotoCard.module.scss";
 import MyPhoto from "../../assetes/kotymba.jpg";
 import Header from "../Header/Header";
 import React from "react";
