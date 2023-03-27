@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f27affbc.css",
-    "main.js": "/portfolio/static/js/main.88755a98.js",
+    "main.css": "/portfolio/static/css/main.457dd6c3.css",
+    "main.js": "/portfolio/static/js/main.2f415e2c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/kotymba.jpg": "/portfolio/static/media/kotymba.cce3c0dd0e0f37e4aa51.jpg",
     "static/media/react.gif": "/portfolio/static/media/react.fe12582299ed04f3686b.gif",
@@ -15,12 +15,12 @@
     "static/media/tsLogo.png": "/portfolio/static/media/tsLogo.0368a7e77031b4873551.png",
     "static/media/gitHubImg.jpg": "/portfolio/static/media/gitHubImg.987334e9f782cc505f25.jpg",
     "index.html": "/portfolio/index.html",
-    "main.f27affbc.css.map": "/portfolio/static/css/main.f27affbc.css.map",
-    "main.88755a98.js.map": "/portfolio/static/js/main.88755a98.js.map",
+    "main.457dd6c3.css.map": "/portfolio/static/css/main.457dd6c3.css.map",
+    "main.2f415e2c.js.map": "/portfolio/static/js/main.2f415e2c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f27affbc.css",
-    "static/js/main.88755a98.js"
+    "static/css/main.457dd6c3.css",
+    "static/js/main.2f415e2c.js"
   ]
 }
