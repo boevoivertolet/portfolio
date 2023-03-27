@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.module.css';
+import styles from './Footer.module.scss';
 import styleContainer from '../../common/styles/Container.module.scss';
 import {BarItem} from './BarItem/BarItem';
 
@@ -8,7 +8,6 @@ export const Footer = () => {
         <footer className = {`${styles.footerBlock} ${styleContainer.container}`}>
             <div className = {styles.footerContainer}>
                 <div className = {styles.content}>
-                    {/*<h2 className = {styles.title}>Мои <span>социальные сети</span></h2>*/}
                     <div className = {styles.bar}>
                         <BarItem link = {'https://vk.com/nakalahinei'} id = {'vkId'} title = {'vk'}
                                  class = {"fa-brands fa-vk"} />

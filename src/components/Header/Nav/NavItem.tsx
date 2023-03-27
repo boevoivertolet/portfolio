@@ -1,5 +1,5 @@
 import React, {MouseEvent, useState} from "react";
-import styles from './Nav.module.css'
+import styles from './Nav.module.scss'
 
 export const NavItem = (props: NavItemPropsType) => {
     const [display, setDisplay] = useState<boolean>(false)
