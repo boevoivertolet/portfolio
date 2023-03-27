@@ -10,10 +10,12 @@
 }
 
 
-
-
 .navItem {
-    width: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
     text-align: center;
     height: 80%;
     color: #565656;
@@ -21,7 +23,9 @@
     margin: 0;
     text-decoration: none;
 }
-.navItem a{
+
+.navItem a {
+    width: 40px;
     justify-content: center;
     flex-direction: column;
     display: flex;
@@ -41,6 +45,7 @@
     width: 40px;
     transition: transform 1.0s;
 }
+
 .navIcon:hover {
     border: 1px solid #26CBFC;
     color: #26CBFC;
@@ -50,10 +55,10 @@
 }
 
 
-
 .titleNav {
+    position: absolute;
+    transform: translate(0px, 35px);
     background: transparent;
     color: #00CCFF;
     font-size: 12px;
 }
-

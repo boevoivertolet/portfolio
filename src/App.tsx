@@ -6,8 +6,6 @@ import {MyWorks} from './components/MyWorks/MyWorks';
 import {Contacts} from './components/Contacts/Contacts';
 import {Footer} from './components/Footer/Footer';
 import {PhotoCard} from "./components/PhotoCard/PhotoCard";
-// @ts-ignore
-import Zoom from 'react-reveal/Zoom';
 
 
 function App() {
