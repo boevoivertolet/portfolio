@@ -126,12 +126,14 @@
     }
 
     .nameEmailPhone {
+      position: relative;
       width: 100%;
       display: flex;
       flex: 50%;
       flex-direction: column;
       justify-content: space-evenly;
       box-sizing: border-box;
+
 
       input {
         width: 100%;
@@ -147,12 +149,23 @@
 
 
     .textareaGroup {
+      position: relative;
       flex: 50%;
       display: flex;
       flex-direction: column;
       background: transparent;
       width: 100%;
       height: 100%;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 76px;
+        width: 1px;
+        height: 300px;
+        background: $primaryColor;
+      }
 
       .textareaGroupLabel {
         font-weight: 100;
@@ -184,6 +197,8 @@
         @media screen and (max-width: 770px) {
           font-size: 15px;
         }
+
+
       }
     }
   }
