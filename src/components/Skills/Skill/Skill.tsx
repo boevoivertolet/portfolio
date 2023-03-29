@@ -4,7 +4,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 
-type SkillType = {
+type SkillPropsType = {
     title: string
     logo: string
     id: string
@@ -12,16 +12,18 @@ type SkillType = {
 }
 
 
-export const Skill = (props: SkillType) => {
+export const Skill: React.FC<SkillPropsType> = (props) => {
+    const {link, id, logo, title, ...restProps} = props
     return (
         <Fade left>
-            <a href = {props.link} target = "_blank">
-                <div id = {props.id} className = {styles.skill}>
+            <a href = {link} target = "_blank">
+                <div id = {id} className = {styles.skill}>
 
                     <div className = {styles.icon}>
-                        <img src = {props.logo} alt = "" />
+                        <img src = {logo} alt = "" />
+
                     </div>
-                    <span className = {styles.description}>{props.title}</span>
+                    <span className = {styles.description}>{title}</span>
                 </div>
             </a>
         </Fade>

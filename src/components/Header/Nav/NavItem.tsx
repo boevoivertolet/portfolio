@@ -1,7 +1,8 @@
 import React, {MouseEvent, useState} from "react";
 import styles from './Nav.module.scss'
 
-export const NavItem = (props: NavItemPropsType) => {
+export const NavItem: React.FC<NavItemPropsType> = (props) => {
+    const {address, title, iconClassName, ...restProps} = props
     const [display, setDisplay] = useState<boolean>(false)
 
     const setDisplayTrue = (e: MouseEvent<HTMLAnchorElement>) => {
@@ -12,19 +13,19 @@ export const NavItem = (props: NavItemPropsType) => {
     }
     return (
         <div className = {styles.navItem}>
-            <a href = {props.address} onMouseEnter = {setDisplayTrue}
+            <a href = {address} onMouseEnter = {setDisplayTrue}
                onMouseLeave = {setDisplayFalse}>
                 <div className = {styles.navIcon}>
-                    <i className = {props.className}></i>
+                    <i className = {iconClassName}></i>
                 </div>
 
             </a>
-            {display && <div className = {styles.titleNav}>{props.title}</div>}
+            {display && <div className = {styles.titleNav}>{title}</div>}
         </div>
     )
 }
 type NavItemPropsType = {
     address: string
     title?: string
-    className: string
+    iconClassName: string
 }

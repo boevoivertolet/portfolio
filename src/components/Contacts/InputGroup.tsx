@@ -1,12 +1,13 @@
 import styles from "./Contacts.module.scss";
 import React from "react";
 
-export const InputGroup = (props: InputGroupPropsType) => {
+export const InputGroup: React.FC<InputGroupPropsType> = (props) => {
+    const {label, name, id, placeholder, sup, type, ...restProps} = props
     return (
         <div className = {styles.inputGroup}>
-            <label>{props.label}<sup>{props.sup}</sup></label>
-            <input className = {styles.formInput} type = {props.type} name = {props.name} id = {props.id}
-                   placeholder = {props.placeholder} />
+            <label>{label}<sup>{sup}</sup></label>
+            <input className = {styles.formInput} type = {type} name = {name} id = {id}
+                   placeholder = {placeholder} />
         </div>
     )
 }
