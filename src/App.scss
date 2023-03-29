@@ -2,6 +2,7 @@
 @import 'common/styles/sass/mixins';
 
 .App {
+  position: relative;
   height: auto;
   min-width: 360px;
   display: flex;
@@ -15,6 +16,19 @@
   background-attachment: fixed;
   background-image: url(assetes/bg9.jpg);
   background-size: cover;
+
+  &::before {
+    z-index: 0;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $primaryColor;
+    opacity: 0.05;
+
+  }
 
 
   .left {
