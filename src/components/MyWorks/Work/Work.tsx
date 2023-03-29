@@ -16,7 +16,7 @@ type WorkType = {
 
 export const Work = (props: WorkType) => {
     return (
-        <a className = {styles.workContainer} href = {props.link}>
+        <a target = {'_blank'} className = {styles.workContainer} href = {props.link}>
             <div style = {props.style} className = {styles.work}>
                 <div className = {styles.TitleDescription}>
                     <h2 className = {styles.workTitle}>{props.titleProject}</h2>
