@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7cca640f.css",
-    "main.js": "/portfolio/static/js/main.66be75de.js",
+    "main.css": "/portfolio/static/css/main.a3f6c8ff.css",
+    "main.js": "/portfolio/static/js/main.fed59b09.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/kotymba.jpg": "/portfolio/static/media/kotymba.cce3c0dd0e0f37e4aa51.jpg",
     "static/media/react.gif": "/portfolio/static/media/react.fe12582299ed04f3686b.gif",
@@ -16,12 +16,12 @@
     "static/media/tsLogo.png": "/portfolio/static/media/tsLogo.0368a7e77031b4873551.png",
     "static/media/gitHubImg.jpg": "/portfolio/static/media/gitHubImg.987334e9f782cc505f25.jpg",
     "index.html": "/portfolio/index.html",
-    "main.7cca640f.css.map": "/portfolio/static/css/main.7cca640f.css.map",
-    "main.66be75de.js.map": "/portfolio/static/js/main.66be75de.js.map",
+    "main.a3f6c8ff.css.map": "/portfolio/static/css/main.a3f6c8ff.css.map",
+    "main.fed59b09.js.map": "/portfolio/static/js/main.fed59b09.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cca640f.css",
-    "static/js/main.66be75de.js"
+    "static/css/main.a3f6c8ff.css",
+    "static/js/main.fed59b09.js"
   ]
 }
