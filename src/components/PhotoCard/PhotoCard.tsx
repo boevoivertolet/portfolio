@@ -9,10 +9,6 @@ export const PhotoCard = () => {
 
         <div className = {styles.mainPhoto}>
             <img className = {styles.gif} src = {reactGif} alt = "" />
-            <img className = {styles.gif} src = {reactGif} alt = "" />
-            <img className = {styles.gif} src = {reactGif} alt = "" />
-            <img className = {styles.gif} src = {reactGif} alt = "" />
-            <img className = {styles.gif} src = {reactGif} alt = "" />
             <h3 className = {styles.myLogo}>Александр<span>Frontend dev.</span></h3>
             <img className = {styles.myPhoto} src = {MyPhoto} alt = "#" />
             <p>begininworkspace@gmail.com</p>
