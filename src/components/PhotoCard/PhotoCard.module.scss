@@ -58,14 +58,15 @@
   }
 
   .myLogo {
+    padding: 0;
+    margin: 0;
+    height: 70px;
     justify-content: center;
     align-items: center;
     display: flex;
-    padding: 0;
     box-sizing: border-box;
     font-weight: 400;
-    margin-bottom: 20px;
-
+    //margin-bottom: 20px;
     span {
       font-size: 12px;
       padding: 0;
@@ -90,7 +91,7 @@
 
   .gif {
     transition: transform 1.5s;
-    width: 60%;
+    width: 20%;
 
     :hover {
       transform: scale(1.2);

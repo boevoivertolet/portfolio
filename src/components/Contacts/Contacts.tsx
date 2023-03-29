@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Contacts.module.scss';
 import styleContainer from '../../common/styles/Container.module.scss';
 import {Title} from "../../common/components/Title";
+import {NameEmailPhone} from "./NameEmailPhone";
+import {TextareaGroup} from "./TextareaGroup";
 
 
 export const Contacts = () => {
@@ -12,30 +14,13 @@ export const Contacts = () => {
             <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
                 <div className = {styles.content}>
                     <form className = {styles.form}>
-                        <div className = {styles.NameEmail}>
-                            <div className = {styles.inputGroup}>
-                                <label>Ф.И.О<sup>*</sup></label>
-                                <input className = {styles.formInput} type = "text" name = "full-name" id = "full-name"
-                                       placeholder = "Ваше полное имя" />
-                            </div>
-                            <div className = {styles.inputGroup}>
-                                <label>Email<sup>*</sup></label>
-                                <input className = {styles.formInput} type = "text" name = "email" id = "email"
-                                       placeholder = "Ваш почтовый адрес" />
-                            </div>
+                        <div className = {styles.formData}>
+                            <NameEmailPhone />
+                            <TextareaGroup />
                         </div>
-                        <div className = {styles.inputPhone}>
-                            <label>Телефон</label>
-                            <input className = {styles.formInput} type = "text" name = "phone" id = "phone"
-                                   placeholder = "Ваш номер телефона" />
-                        </div>
-                        <div className = {styles.textareaGroup}>
-                            <label className = {styles.textareaGroupLabel}>Сообщение</label>
-                            <textarea className = {styles.formTextarea} name = "message" id = "message"
-                                      placeholder = "Напишите своё сообщение для меня здесь ..."></textarea>
-                        </div>
+                        <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
                     </form>
-                    <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
+
                 </div>
             </div>
         </div>
