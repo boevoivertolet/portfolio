@@ -13,6 +13,9 @@
   height: 50px;
   border: 1px solid $lowTextColor;
   border-radius: 50%;
+  @media screen and (min-width: 761px) {
+    display: none;
+  }
 
   i {
     color: $lowTextColor;
