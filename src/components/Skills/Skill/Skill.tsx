@@ -13,6 +13,7 @@ type SkillPropsType = {
 
 
 export const Skill: React.FC<SkillPropsType> = (props) => {
+    
     const {link, id, logo, title, ...restProps} = props
     return (
         <Fade left>
