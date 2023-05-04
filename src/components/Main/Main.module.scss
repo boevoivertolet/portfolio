@@ -44,14 +44,14 @@
         }
       }
 
-      &::before {
-        content: '';
-        position: absolute;
-        bottom: 75px;
-        width: 360px;
-        height: 1px;
-        background: $primaryColor;
-      }
+      //&::before {
+      //  content: '';
+      //  position: absolute;
+      //  bottom: 75px;
+      //  width: 360px;
+      //  height: 1px;
+      //  background: $primaryColor;
+      //}
     }
 
 

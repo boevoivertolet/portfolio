@@ -14,25 +14,23 @@
   .contactsContainer {
     padding: 10px;
     width: 90%;
-    border: 1px solid $lowTextColor;
-    border-radius: 25px;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     height: 500px;
     transition: .3s;
-    backdrop-filter: blur(5px);
+    //backdrop-filter: blur(5px);
 
 
   }
 
   .content {
+    max-width: 640px;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
 
 
@@ -66,6 +64,10 @@
   }
 
   .form {
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 1px solid $lowTextColor;
+    border-radius: 25px;
     height: 100%;
     min-height: 400px;
     width: 100%;
@@ -112,7 +114,7 @@
       resize: none;
       display: block;
       color: $textColor;
-      font-size: 13px;
+      font-size: 14px;
       padding: 0;
       transition: .2s;
       box-sizing: border-box;
@@ -142,6 +144,10 @@
 
       input {
         width: 100%;
+
+        &::placeholder {
+          font-size: 17px;
+        }
       }
 
       .inputGroup {
@@ -164,7 +170,6 @@
 
 
       .textareaGroupLabel {
-
         font-weight: 100;
         font-size: 13px;
         width: max-content;
@@ -191,6 +196,12 @@
         -moz-appearance: none;
         outline: none;
         background: transparent;
+
+        &::placeholder {
+          font-size: 17px;
+        }
+
+
         @media screen and (max-width: 770px) {
           font-size: 15px;
         }

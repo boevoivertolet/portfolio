@@ -1,5 +1,5 @@
 import styles from "./PhotoCard.module.scss";
-import MyPhoto from "../../assetes/kotymba.jpg";
+import MyPhoto from "../../assetes/myPhoto.jpg";
 import Header from "../Header/Header";
 import React from "react";
 import reactGif from "../../assetes/react.gif";
