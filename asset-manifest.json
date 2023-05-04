@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.37f65db9.css",
-    "main.js": "/portfolio/static/js/main.e5774b6e.js",
+    "main.css": "/portfolio/static/css/main.1ffa5254.css",
+    "main.js": "/portfolio/static/js/main.32547c84.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/kotymba.jpg": "/portfolio/static/media/kotymba.cce3c0dd0e0f37e4aa51.jpg",
     "static/media/react.gif": "/portfolio/static/media/react.fe12582299ed04f3686b.gif",
+    "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.66c8d7a6bd7d7b074e3c.jpg",
     "static/media/bg9.jpg": "/portfolio/static/media/bg9.f0f70b2849206f645210.jpg",
     "static/media/reduxLogo.png": "/portfolio/static/media/reduxLogo.d8e490e70614e8a80b2c.png",
     "static/media/cssLogo.png": "/portfolio/static/media/cssLogo.0846ca598557e07d37d8.png",
@@ -16,12 +16,12 @@
     "static/media/tsLogo.png": "/portfolio/static/media/tsLogo.0368a7e77031b4873551.png",
     "static/media/gitHubImg.jpg": "/portfolio/static/media/gitHubImg.987334e9f782cc505f25.jpg",
     "index.html": "/portfolio/index.html",
-    "main.37f65db9.css.map": "/portfolio/static/css/main.37f65db9.css.map",
-    "main.e5774b6e.js.map": "/portfolio/static/js/main.e5774b6e.js.map",
+    "main.1ffa5254.css.map": "/portfolio/static/css/main.1ffa5254.css.map",
+    "main.32547c84.js.map": "/portfolio/static/js/main.32547c84.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37f65db9.css",
-    "static/js/main.e5774b6e.js"
+    "static/css/main.1ffa5254.css",
+    "static/js/main.32547c84.js"
   ]
 }
