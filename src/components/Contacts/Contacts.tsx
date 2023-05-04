@@ -12,9 +12,11 @@ export const Contacts = () => {
         <div className = {`${styles.contactsBlock} ${styleContainer.container}`}>
             <Title text = {'Мы можем поработать '} textSpan = {'вместе'} />
             <p>Со мной можно связаться по почте <span>begininworkspace@gmail.com</span>. Или заполнив форму.</p>
-            <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
-                <div className = {styles.content}>
-                    <Fade delay = {500}>
+            <Fade delay = {500}>
+                <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
+
+                    <div className = {styles.content}>
+
                         <form className = {styles.form}>
                             <div className = {styles.formData}>
                                 <NameEmailPhone />
@@ -22,9 +24,11 @@ export const Contacts = () => {
                             </div>
                             <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
                         </form>
-                    </Fade>
+
+                    </div>
+     
                 </div>
-            </div>
+            </Fade>
         </div>
 
     )
