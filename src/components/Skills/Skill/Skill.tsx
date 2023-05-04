@@ -1,7 +1,6 @@
 import styles from './Skill.module.scss';
 import React from 'react';
-// @ts-ignore
-import Fade from 'react-reveal/Fade';
+import {Bounce} from "react-awesome-reveal";
 
 
 type SkillPropsType = {
@@ -13,10 +12,10 @@ type SkillPropsType = {
 
 
 export const Skill: React.FC<SkillPropsType> = (props) => {
-    
+
     const {link, id, logo, title, ...restProps} = props
     return (
-        <Fade left>
+        <Bounce delay = {500} duration = {5000}>
             <a href = {link} target = "_blank">
                 <div id = {id} className = {styles.skill}>
 
@@ -27,7 +26,7 @@ export const Skill: React.FC<SkillPropsType> = (props) => {
                     <span className = {styles.description}>{title}</span>
                 </div>
             </a>
-        </Fade>
+        </Bounce>
 
     )
 

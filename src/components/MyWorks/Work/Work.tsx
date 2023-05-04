@@ -1,6 +1,7 @@
 import styles from './Work.module.scss';
 import React from 'react';
 
+
 type WorkPropsType = {
     titleProject: string
     description: string
@@ -17,6 +18,7 @@ type WorkPropsType = {
 export const Work: React.FC<WorkPropsType> = (props) => {
     const {titleProject, description, link, style, ...restProps} = props
     return (
+
         <a target = {'_blank'} className = {styles.workContainer} href = {link}>
             <div style = {style} className = {styles.work}>
                 <div className = {styles.TitleDescription}>
@@ -25,5 +27,6 @@ export const Work: React.FC<WorkPropsType> = (props) => {
                 </div>
             </div>
         </a>
+
     )
 }

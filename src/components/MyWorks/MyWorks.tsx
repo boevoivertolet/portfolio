@@ -4,6 +4,7 @@ import styleContainer from '../../common/styles/Container.module.scss';
 import {Work} from './Work/Work';
 import {Title} from '../../common/components/Title';
 import caseCook from '../../assetes/img/social.png'
+import {Zoom} from "react-awesome-reveal";
 
 
 export const MyWorks = () => {
@@ -22,19 +23,21 @@ export const MyWorks = () => {
     let descriptionCounter = 'Учебный проект, который я делал, когда обучался в "it-incubatore". Одна из проверочных работ. Реализация счётчика по возрастающей сложности. От простейшего через локальный стейт до применения Redux.'
 
     return (
-        <div className = {`${styles.myWorksBlock} ${styleContainer.container}`}>
-            <div className = {styles.myWorksContainer}>
-                <Title text = {'Мои'} textSpan = {'проекты'} />
-                <div className = {styles.works}>
-                    <Work titleProject = {'Социальная сеть "Casecook"'}
-                          description = {descriptionCasecook}
-                          link = {'https://github.com/boevoivertolet/casecook'} />
-                    <Work titleProject = {'Небольшой аналог "Trello" мой todolist'} description = {descriptionTodo}
-                          link = {'https://github.com/boevoivertolet/todo'} />
-                    <Work titleProject = {'Счётчики'} description = {descriptionCounter}
-                          link = {'https://github.com/boevoivertolet/training'} />
+        <Zoom delay = {500}>
+            <div className = {`${styles.myWorksBlock} ${styleContainer.container}`}>
+                <div className = {styles.myWorksContainer}>
+                    <Title text = {'Мои'} textSpan = {'проекты'} />
+                    <div className = {styles.works}>
+                        <Work titleProject = {'Социальная сеть "Casecook"'}
+                              description = {descriptionCasecook}
+                              link = {'https://github.com/boevoivertolet/casecook'} />
+                        <Work titleProject = {'Небольшой аналог "Trello" мой todolist'} description = {descriptionTodo}
+                              link = {'https://github.com/boevoivertolet/todo'} />
+                        <Work titleProject = {'Счётчики'} description = {descriptionCounter}
+                              link = {'https://github.com/boevoivertolet/training'} />
+                    </div>
                 </div>
             </div>
-        </div>
+        </Zoom>
     )
 }

@@ -10,15 +10,15 @@ import htmlLogo from '../../assetes/htmlLogo.png'
 import cssLogo from '../../assetes/cssLogo.png'
 import ofLogo from '../../assetes/ofLogo.png'
 import {Title} from "../../common/components/Title";
-// @ts-ignore
-import Zoom from 'react-reveal/Zoom';
+import {Zoom} from "react-awesome-reveal";
+
 
 function Skills() {
     return (
         <div className = {`${styles.skillsBlock} ${styleContainer.container}`}>
             <div className = {styles.skillsContainer}>
                 <Title text = {'Мой приоритетный'} textSpan = {'стек'} />
-                <Zoom>
+                <Zoom delay = {500}>
                     <div className = {styles.skills}>
                         <Skill id = {'react'} title = {'React'} logo = {reactLogo} link = {'https://ru.reactjs.org/'} />
                         <Skill id = {'redux'} title = {'Redux'} logo = {reduxLogo} link = {'https://redux.js.org/'} />

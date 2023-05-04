@@ -18,6 +18,7 @@ function App() {
                 <article id = 'top'></article>
                 <PhotoCard />
             </div>
+
             <div className = {'right'}>
                 <article id = 'main'></article>
                 <Main />
