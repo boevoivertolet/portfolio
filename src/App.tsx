@@ -13,7 +13,7 @@ import Particle from "./common/components/Particle";
 function App() {
     return (
         <div className = 'App'>
-            {/*<Particle />*/}
+            <Particle />
             <div className = {'left'}>
                 <article id = 'top'></article>
                 <PhotoCard />

@@ -10,7 +10,7 @@ export const PhotoCard = () => {
     return (
 
         <div className = {styles.mainPhoto}>
-            <Zoom delay = {500}>
+            <Zoom delay = {500} triggerOnce = {true}>
                 <img className = {styles.gif} src = {reactGif} alt = "" />
                 <h3 className = {styles.myLogo}>Александр<span>Frontend dev.</span></h3>
                 <img className = {styles.myPhoto} src = {MyPhoto} alt = "#" />
