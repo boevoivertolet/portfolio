@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Footer.module.scss';
 import styleContainer from '../../common/styles/Container.module.scss';
 import {BarItem} from './BarItem/BarItem';
+import ReactTypingEffect from "react-typing-effect";
 
 export const Footer = () => {
     return (
@@ -20,6 +21,9 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
+            <ReactTypingEffect
+                text = {'Всего доброго:)'}
+            />
         </footer>
 
     )

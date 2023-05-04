@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Main.module.scss'
 import styleContainer from '../../common/styles/Container.module.scss'
 import {GitGif} from "./GitGif";
-import {Fade} from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
 
 
 function Main() {
@@ -17,6 +17,7 @@ function Main() {
                             начинающий <span>Frontend</span> разработчик. Разрабатываю одностраничные
                             приложения(<span>SPA</span>).
                         </h1>
+                       
                         <p>Я проектирую и кодирую красивые простые вещи, и мне нравится то, что я делаю.</p>
                     </div>
                 </div>

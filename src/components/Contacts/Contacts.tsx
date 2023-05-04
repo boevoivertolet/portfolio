@@ -11,24 +11,19 @@ export const Contacts = () => {
     return (
         <div className = {`${styles.contactsBlock} ${styleContainer.container}`}>
             <Title text = {'Мы можем поработать '} textSpan = {'вместе'} />
-            <p>Со мной можно связаться по почте <span>begininworkspace@gmail.com</span>. Или заполнив форму.</p>
-            <Fade damping = {1} delay = {500}>
-                <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
-
-                    <div className = {styles.content}>
-
-                        <form className = {styles.form}>
-                            <div className = {styles.formData}>
-                                <NameEmailPhone />
-                                <TextareaGroup />
-                            </div>
-                            <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
-                        </form>
-
-                    </div>
-
+            <p>Со мной можно связаться по почте begininworkspace@gmail.com. Или заполнив форму.</p>
+            <Fade damping = {1} delay = {500} className = {`${styleContainer.container} ${styles.contactsContainer}`}>
+                <div className = {styles.content}>
+                    <form className = {styles.form}>
+                        <div className = {styles.formData}>
+                            <NameEmailPhone />
+                            <TextareaGroup />
+                        </div>
+                        <button type = {'submit'} className = {styles.button}>Отправить сообщение</button>
+                    </form>
                 </div>
             </Fade>
+
         </div>
 
     )
