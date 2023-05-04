@@ -2,6 +2,7 @@
 @import 'common/styles/sass/mixins';
 
 .App {
+  padding: 20px;
   position: relative;
   height: auto;
   min-width: 360px;
@@ -41,6 +42,7 @@
   }
 
   .right {
+    padding: 20px;
     position: relative;
     height: auto;
     display: flex;
