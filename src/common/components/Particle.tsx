@@ -20,10 +20,10 @@ function Particle() {
             options = {{
                 background: {
                     color: {
-                        value: "#0d47a1",
+                        value: "black",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 60,
                 interactivity: {
                     events: {
                         onClick: {
@@ -31,14 +31,14 @@ function Particle() {
                             mode: "push",
                         },
                         onHover: {
-                            enable: true,
+                            enable: false,
                             mode: "repulse",
                         },
                         resize: true,
                     },
                     modes: {
                         push: {
-                            quantity: 4,
+                            quantity: 1,
                         },
                         repulse: {
                             distance: 200,
@@ -67,24 +67,24 @@ function Particle() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 1,
                         straight: false,
                     },
                     number: {
                         density: {
-                            enable: true,
+                            enable: false,
                             area: 800,
                         },
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0,
                     },
                     shape: {
                         type: "circle",
                     },
                     size: {
-                        value: {min: 1, max: 5},
+                        value: {min: 1, max: 15},
                     },
                 },
                 detectRetina: true,
