@@ -12,7 +12,7 @@ export const Contacts = () => {
         <div className = {`${styles.contactsBlock} ${styleContainer.container}`}>
             <Title text = {'Мы можем поработать '} textSpan = {'вместе'} />
             <p>Со мной можно связаться по почте <span>begininworkspace@gmail.com</span>. Или заполнив форму.</p>
-            <Fade delay = {500}>
+            <Fade damping = {1} delay = {500}>
                 <div className = {`${styleContainer.container} ${styles.contactsContainer}`}>
 
                     <div className = {styles.content}>
@@ -26,7 +26,7 @@ export const Contacts = () => {
                         </form>
 
                     </div>
-     
+
                 </div>
             </Fade>
         </div>
