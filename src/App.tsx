@@ -7,28 +7,31 @@ import {Contacts} from './components/Contacts/Contacts'
 import {Footer} from './components/Footer/Footer'
 import {PhotoCard} from './components/PhotoCard/PhotoCard'
 import {UpButton} from "./components/UpButton/UpButton.";
+import Particle from "./common/components/Particle";
+
 
 function App() {
     return (
-        <div className = 'App'>
-            <div className = {'left'}>
-                <article id = 'top'></article>
-                <PhotoCard />
-            </div>
-            <div className = {'right'}>
-                <article id = 'main'></article>
-                <Main />
-                <article id = 'skills'></article>
-                <Skills />
-                <article id = 'works'></article>
-                <MyWorks />
-                <article id = 'contacts'></article>
-                <Contacts />
-                <UpButton />
-                <Footer />
-            </div>
-
-        </div>
+        // <div className = 'App'>
+        //     <div className = {'left'}>
+        //         <article id = 'top'></article>
+        //         <PhotoCard />
+        //     </div>
+        //     <div className = {'right'}>
+        //         <article id = 'main'></article>
+        //         <Main />
+        //         <article id = 'skills'></article>
+        //         <Skills />
+        //         <article id = 'works'></article>
+        //         <MyWorks />
+        //         <article id = 'contacts'></article>
+        //         <Contacts />
+        //         <UpButton />
+        //         <Footer />
+        //     </div>
+        //
+        // </div>
+        <Particle />
     )
 }
 
