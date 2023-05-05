@@ -18,7 +18,7 @@ function Skills() {
         <div className = {`${styles.skillsBlock} ${styleContainer.container}`}>
             <div className = {styles.skillsContainer}>
                 <Title text = {'Мой приоритетный'} textSpan = {'стек'} />
-                <Zoom delay = {500}>
+                <Zoom onVisibilityChange={(inView, entry) => true}>
                     <div className = {styles.skills}>
                         <Skill id = {'react'} title = {'React'} logo = {reactLogo} link = {'https://ru.reactjs.org/'} />
                         <Skill id = {'redux'} title = {'Redux'} logo = {reduxLogo} link = {'https://redux.js.org/'} />

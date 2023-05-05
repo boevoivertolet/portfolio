@@ -22,7 +22,7 @@ export const Footer = () => {
                 </div>
             </div>
             <ReactTypingEffect
-                text = {'©All rights reserved :)'}
+                text = {':)'}
             />
         </footer>
 

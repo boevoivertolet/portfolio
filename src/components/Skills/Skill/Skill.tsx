@@ -15,7 +15,7 @@ export const Skill: React.FC<SkillPropsType> = (props) => {
 
     const {link, id, logo, title, ...restProps} = props
     return (
-        <Bounce delay = {500} duration = {5000}>
+        <Bounce>
             <a href = {link} target = "_blank">
                 <div id = {id} className = {styles.skill}>
 

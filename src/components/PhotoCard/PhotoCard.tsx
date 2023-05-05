@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import React from "react";
 import reactGif from "../../assetes/react.gif";
 import {Zoom} from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
 
 
 export const PhotoCard = () => {
@@ -11,6 +12,7 @@ export const PhotoCard = () => {
 
         <div className = {styles.mainPhoto}>
             <Zoom delay = {500} triggerOnce = {true}>
+
                 <img className = {styles.gif} src = {reactGif} alt = "" />
                 <h3 className = {styles.myLogo}>Александр<span>Frontend dev.</span></h3>
                 <img className = {styles.myPhoto} src = {MyPhoto} alt = "#" />
