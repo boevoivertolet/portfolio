@@ -16,7 +16,7 @@ function App() {
             <Particle />
             <div className = {'left'}>
                 <article id = 'top'></article>
-                <PhotoCard />
+                {/*<PhotoCard />*/}
             </div>
 
             <div className = {'right'}>
