@@ -15,7 +15,7 @@ export const Skill: React.FC<SkillPropsType> = (props) => {
 
     const {link, id, logo, title, ...restProps} = props
     return (
-        <Bounce>
+        <Bounce triggerOnce={true} >
             <a href = {link} target = "_blank">
                 <div id = {id} className = {styles.skill}>
 
