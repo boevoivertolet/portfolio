@@ -10,14 +10,14 @@
   width: 50px;
   height: 100px;
   box-sizing: border-box;
-  transition: transform 1.0s;
+  transition: transform 2.0s;
 
   &:hover {
     transition: 0.3s;
   }
 
   i {
-    transition: transform 1.0s;
+    transition:  1.0s;
     font-size: 35px;
     vertical-align: middle;
     padding: 0;
