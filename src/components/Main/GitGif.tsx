@@ -3,6 +3,7 @@ import gitGif from "../../assetes/gitHubImg.jpg";
 import React, {useEffect, useState} from "react";
 import {Rotate} from "react-awesome-reveal";
 import {Fade} from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
 
 
 export const GitGif = () => {
@@ -17,6 +18,7 @@ export const GitGif = () => {
                         </a>
                     </Rotate>
                 </Fade>
+
             </div>
         </div>
     )

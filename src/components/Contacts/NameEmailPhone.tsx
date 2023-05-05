@@ -3,6 +3,7 @@ import {InputGroup} from "./InputGroup";
 import React from "react";
 
 export const NameEmailPhone = () => {
+
     return (
         <div className = {styles.nameEmailPhone}>
             <InputGroup type = {'text'} id = {"full-name"} name = {"full-name"} label = {'Ф.И.О'}

@@ -21,9 +21,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <ReactTypingEffect
-                text = {':)'}
-            />
+
         </footer>
 
     )
