@@ -50,6 +50,13 @@
       align-items: center;
       justify-content: center;
       text-decoration: none;
+
+      &:disabled {
+        border: 1px solid $primaryColor;
+        background: transparent;
+        color: $primaryColor;
+      }
+
       @media screen and (max-width: 770px) {
         align-self: center;
       }
@@ -109,10 +116,11 @@
       position: relative;
       width: 50%;
       border: none;
-      border-bottom: 0.5px solid $textColor;
+      border-bottom: 0.5px solid $lowTextColor;
       margin-left: -1px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
+      border-radius: 6px 6px 0px 0px;
+      //border-top-left-radius: 0;
+      //border-bottom-left-radius: 0;
       height: 40px;
       resize: none;
       display: block;
@@ -137,7 +145,8 @@
 
     .formInput__error {
       transition: 1s;
-      border-bottom: 1px solid $primaryColor;
+      border: 1px solid $primaryColor !important;
+
       &::placeholder {
         transition: 1s;
         color: $primaryColor;
@@ -193,7 +202,6 @@
       height: 100%;
 
       .label__error {
-        //transform: scale(1.1);
         transition: 1s;
         color: $primaryColor;
 
@@ -202,10 +210,12 @@
 
       .formTextarea {
         align-self: center;
-        border: none;
+        //border: none;
+        border: 0.5px solid $lowTextColor;
+        border-radius: 6px;
         margin-left: -1px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
+        //border-top-left-radius: 0;
+        //border-bottom-left-radius: 0;
         height: 100%;
         resize: none;
         display: block;
