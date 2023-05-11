@@ -35,8 +35,6 @@ export function MyForm() {
                                         value: 50,
                                         message: ' 50 символов максимум'
                                     },
-
-
                                 })} />
                             {errors.fullName && <span className = {errors.fullName ? styles.p__error : ''}>
                                       <i className = "fa-solid fa-triangle-exclamation"></i>
