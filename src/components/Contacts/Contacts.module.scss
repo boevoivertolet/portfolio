@@ -106,8 +106,10 @@
     }
 
     .formInput {
+      position: relative;
       width: 50%;
       border: none;
+      border-bottom: 0.5px solid $textColor;
       margin-left: -1px;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
@@ -125,6 +127,8 @@
       -moz-appearance: none;
       outline: none;
       background: transparent;
+
+
       @media screen and (max-width: 770px) {
         font-size: 12px;
       }
@@ -133,7 +137,7 @@
 
     .formInput__error {
       transition: 1s;
-      //border-bottom: 1px solid $primaryColor;
+      border-bottom: 1px solid $primaryColor;
       &::placeholder {
         transition: 1s;
         color: $primaryColor;
@@ -152,7 +156,9 @@
 
 
       input {
-        width: 100%;
+        box-sizing: border-box;
+        padding-left: 5px;
+        width: 90%;
 
         &::placeholder {
           font-size: 14px;
