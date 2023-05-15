@@ -16,7 +16,7 @@ export function MyForm() {
 
     return (
         <>
-            <form className = {styles.form} onSubmit = {handleSubmit(onSubmit)}>
+            <form  className = {styles.form} onSubmit = {handleSubmit(onSubmit)}>
                 <div className = {styles.formData}>
                     <div className = {styles.nameEmailPhone}>
                         <div className = {styles.inputGroup}>

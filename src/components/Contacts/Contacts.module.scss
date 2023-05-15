@@ -21,10 +21,10 @@
     transition: .3s;
 
 
-
   }
 
   .content {
+
     max-width: 640px;
     height: 100%;
     width: 100%;
@@ -35,8 +35,7 @@
 
 
     .button {
-      //margin-top: 20px;
-      transition: 1s;
+      transition: background-color 1s;
       width: max-content;
       font-size: 16px;
       color: $backgroundColor;
@@ -52,11 +51,8 @@
       justify-content: center;
       text-decoration: none;
 
-      &:disabled {
-        border: 1px solid $primaryColor;
-        background: transparent;
-        color: $primaryColor;
-      }
+
+
 
       @media screen and (max-width: 770px) {
         align-self: center;
@@ -67,12 +63,17 @@
         background: transparent;
         color: $primaryColor;
       }
+
+      &:active {
+        color: transparent;
+
+      }
     }
 
   }
 
   .form {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(25px);
     padding: 20px;
     border: 1px solid $lowTextColor;
     border-radius: 25px;
@@ -120,8 +121,6 @@
       border-bottom: 0.5px solid $lowTextColor;
       margin-left: -1px;
       border-radius: 6px 6px 0px 0px;
-      //border-top-left-radius: 0;
-      //border-bottom-left-radius: 0;
       height: 40px;
       resize: none;
       display: block;
@@ -211,12 +210,9 @@
 
       .formTextarea {
         align-self: center;
-        //border: none;
         border: 0.5px solid $lowTextColor;
         border-radius: 6px;
         margin-left: -1px;
-        //border-top-left-radius: 0;
-        //border-bottom-left-radius: 0;
         height: 80%;
         resize: none;
         display: block;
