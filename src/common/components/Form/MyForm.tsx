@@ -19,13 +19,6 @@ export function MyForm() {
 
       return (
             <>
-                  {/* <form action='https://formspree.io/f/mbjvbjbd' method='post'>
-                        <label htmlFor='email'>Your Email</label>
-                        <input name='Email' id='email' type='email' />
-                        <input />
-                        <button type='submit'>Submit</button>
-                  </form> */}
-
                   <form
                         method='POST'
                         action='https://formspree.io/f/mbjvbjbd'
