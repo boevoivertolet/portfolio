@@ -1,0 +1,71 @@
+@import './sass/variables.scss';
+
+.navbar {
+  width: max-content;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  cursor: pointer;
+
+  .active i {
+    color: $accentColor
+  }
+
+  i {
+    font-size: 18px;
+    color: $textColor
+  }
+
+
+  .navbar_menu_show {
+    width: max-content;
+    transition: 1s;
+    transform: translateX(0px);
+    margin-right: 40px;
+
+  }
+
+  .navbar_menu_hide {
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(25px);
+
+  }
+
+
+  .menu_icon {
+    transition: 0.3s;
+    z-index: 50;
+
+    i {
+      color: $textColor;
+      font-size: 26px;
+      transition: 1s;
+      z-index: 50;
+    }
+
+    :active {
+      transition: 1s;
+      color: $accentColor
+    }
+
+    :hover {
+      transition: 0.3s;
+      transform: scale(1.2);
+    }
+  }
+
+
+  a {
+    color: $textColor;
+    text-decoration: none;
+    margin-left: 25px;
+    //margin-right: 65px;
+  }
+}
+

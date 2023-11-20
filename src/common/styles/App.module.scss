@@ -1,0 +1,8 @@
+@import 'sass/variables';
+
+.app {
+  background: $mainColor;
+  min-height: 100vh;
+  color: $textColor;
+  height: max-content;
+}
