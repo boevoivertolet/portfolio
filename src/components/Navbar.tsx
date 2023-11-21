@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import s from '../common/styles/Navbar.module.scss'
 import { NavLink } from 'react-router-dom'
-import { Fade } from 'react-awesome-reveal'
+import { Fade, Slide } from 'react-awesome-reveal'
 
 export const Navbar = () => {
     const [vue, setVue] = useState<boolean>(false)
@@ -10,11 +10,7 @@ export const Navbar = () => {
         <Fade>
             <div className={s.navbar}>
                 <div className={vue ? s.navbar_menu_show : s.navbar_menu_hide}>
-                    <NavLink
-                        title={'home'}
-                        to={'/greetingsPage'}
-                        className={({ isActive }) => (isActive ? s.active : '')}
-                    >
+                    <NavLink title={'home'} to={'/homePage'} className={({ isActive }) => (isActive ? s.active : '')}>
                         <i className="fa-solid fa-house">
                             <span>home</span>
                         </i>
@@ -52,9 +48,11 @@ export const Navbar = () => {
                         </i>
                     </NavLink>
                 </div>
-                <div title={'menu'} onClick={() => setVue(!vue)} className={s.menu_icon}>
-                    <i className="fa-solid fa-bars"></i>
-                </div>
+                <Slide direction={'right'}>
+                    <div title={'menu'} onClick={() => setVue(!vue)} className={s.menu_icon}>
+                        <i className="fa-solid fa-bars"></i>
+                    </div>
+                </Slide>
             </div>
         </Fade>
     )

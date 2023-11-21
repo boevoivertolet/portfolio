@@ -1,4 +1,4 @@
-import s from '../common/styles/GreetingsPage.module.scss'
+import s from '../common/styles/HomePage.module.scss'
 import photo from '../assetes/myPhoto.jpg'
 
 export const Greetings = () => {
