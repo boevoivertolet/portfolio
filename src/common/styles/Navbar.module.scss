@@ -11,29 +11,44 @@
   right: 20px;
   background: transparent;
   cursor: pointer;
+  overflow-x: hidden;
+
 
   .active i {
     color: $accentColor
   }
 
   i {
-    font-size: 18px;
+    font-size: 20px;
     color: $textColor
   }
 
 
   .navbar_menu_show {
     width: max-content;
-    transition: 1s;
+    transition: 1.5s;
     transform: translateX(0px);
     margin-right: 40px;
+
+    & span {
+      //display: none;// медиа запросом убрать для мобилок
+      margin-left: 10px;
+      font-size: 10px;
+    }
 
   }
 
   .navbar_menu_hide {
     opacity: 0;
-    transition: 1s;
-    transform: translateX(25px);
+    transition: 1.5s;
+    transform: translateX(600px);
+
+
+    & span {
+      //display: none;// медиа запросом убрать для мобилок
+      margin-left: 10px;
+      font-size: 10px;
+    }
 
   }
 
@@ -42,30 +57,40 @@
     transition: 0.3s;
     z-index: 50;
 
-    i {
+    & i {
       color: $textColor;
       font-size: 26px;
       transition: 1s;
       z-index: 50;
     }
 
+
     :active {
       transition: 1s;
-      color: $accentColor
+      color: $accentColor;
+
     }
 
     :hover {
       transition: 0.3s;
       transform: scale(1.2);
+
     }
+
+
   }
 
-
   a {
+    position: inherit;
     color: $textColor;
     text-decoration: none;
     margin-left: 25px;
-    //margin-right: 65px;
+
+    :hover {
+      transition: 0.3s;
+      color: $accentColor;
+    }
   }
+
 }
 
