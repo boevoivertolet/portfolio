@@ -1,5 +1,6 @@
 import s from '../common/styles/HomePage.module.scss'
 import photo from '../assetes/myPhoto.jpg'
+import { Fade } from 'react-awesome-reveal'
 
 export const Greetings = () => {
     return (
@@ -7,6 +8,7 @@ export const Greetings = () => {
             <div className={s.photo}>
                 <img src={photo} alt="#" />
             </div>
+
             <div className={s.greetings_text}>
                 <p>
                     Всем привет! И добро пожаловать на мою страницу. Меня зовут Александр и я занимаюсь разработкой

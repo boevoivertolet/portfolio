@@ -8,9 +8,9 @@
   justify-content: end;
   position: absolute;
   top: 20px;
-  right: 20px;
-  background: transparent;
-  cursor: pointer;
+  right: 40px;
+  //background: transparent;
+
   overflow-x: hidden;
 
 
@@ -20,7 +20,8 @@
 
   i {
     font-size: 20px;
-    color: $textColor
+    color: $textColor;
+    cursor: pointer;
   }
 
 
@@ -56,8 +57,11 @@
   .menu_icon {
     transition: 0.3s;
     z-index: 50;
+    background-color: #1f1f20;
 
     & i {
+      //width: 40px;
+      margin-left: 10px;
       color: $textColor;
       font-size: 26px;
       transition: 1s;
@@ -66,14 +70,14 @@
 
 
     :active {
-      transition: 1s;
+      //transition: 1s;
       color: $accentColor;
 
     }
 
     :hover {
       transition: 0.3s;
-      transform: scale(1.2);
+      color: $accentColor;
 
     }
 

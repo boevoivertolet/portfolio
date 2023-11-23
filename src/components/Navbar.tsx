@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import s from '../common/styles/Navbar.module.scss'
 import { NavLink } from 'react-router-dom'
 import { Fade, Slide } from 'react-awesome-reveal'
+import { CSSTransition } from 'react-transition-group'
 
 export const Navbar = () => {
     const [vue, setVue] = useState<boolean>(false)
@@ -49,8 +50,12 @@ export const Navbar = () => {
                     </NavLink>
                 </div>
                 <Slide direction={'right'}>
-                    <div title={'menu'} onClick={() => setVue(!vue)} className={s.menu_icon}>
-                        <i className="fa-solid fa-bars"></i>
+                    <div className={s.menu_icon}>
+                        {!vue ? (
+                            <i onClick={() => setVue(!vue)} title={'menu'} className="fa-solid fa-bars"></i>
+                        ) : (
+                            <i onClick={() => setVue(!vue)} title={'close'} className="fa-solid fa-xmark"></i>
+                        )}
                     </div>
                 </Slide>
             </div>
