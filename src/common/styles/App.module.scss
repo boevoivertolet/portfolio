@@ -1,8 +1,11 @@
 @import 'sass/variables';
 
-.app {
-  background: $mainColor;
-  min-height: 100vh;
-  color: $textColor;
-  height: max-content;
+.app_wrapper {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: $mainColor;
+      color: $textColor;
 }
