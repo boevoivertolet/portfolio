@@ -12,13 +12,13 @@ export const Greetings = () => {
       return (
             <div className={show ? `${s.greetings + ' ' + s.show}` : `${s.greetings}`}>
                   <div className={s.photo}>
-                        <img src={photo} alt='#' />
+                        <img src={photo} alt='avatar' />
                   </div>
                   <div className={s.greetings_text}>
                         <p>
                               Всем привет! И добро пожаловать на мою страницу. Меня зовут Александр и я занимаюсь
                               разработкой пользовательских интерфейсов. Пишу на JS/TS, активно использую ReactJS в
-                              связке с Redux(Redux Toolkit).
+                              связке с Redux(Toolkit).
                         </p>
                         <p>Это моё портфолио. Тут собрана некоторая информация обо мне, моих работах и отдыхе.</p>
                   </div>
