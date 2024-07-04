@@ -1,18 +1,18 @@
 *,
 :after,
 :before {
-      box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-      display: block;
-      font:
-            16px/1.6 Roboto,
-            Helvetica,
-            sans-serif;
-      font-weight: 300;
-      background-size: cover;
-      background-repeat: no-repeat;
+    display: block;
+    font:
+        16px/1.6 Roboto,
+        Helvetica,
+        sans-serif;
+    font-weight: 300;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body h1,
@@ -21,5 +21,5 @@ h3,
 h4,
 h5,
 h6 {
-      margin: 0;
+    margin: 0;
 }
