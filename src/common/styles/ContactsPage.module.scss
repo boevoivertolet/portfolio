@@ -1,6 +1,6 @@
 @import './sass/variables.scss';
 
-.about_page {
+.contacts_page {
     opacity: 0;
     transition: 1s;
     display: flex;
@@ -16,7 +16,7 @@
         font-weight: 300;
         color: $accentColor;
     }
-    .about_block {
+    .contacts_block {
         align-items: center;
         overflow-y: scroll;
         scrollbar-width: none;
