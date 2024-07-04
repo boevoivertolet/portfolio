@@ -1,0 +1,59 @@
+@import '/src/common/styles/sass/variables';
+
+.workContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .work {
+        width: 90%;
+        margin-bottom: 20px;
+        cursor: pointer;
+        background: transparent;
+        display: flex;
+        color: $lowTextColor;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        height: max-content;
+        border: 1px solid $lowTextColor;
+        border-radius: 20px;
+        position: relative;
+        padding: 14px 14px 14px 14px;
+        transition: transform 1.5s;
+        //@media screen and (max-height: 945px) {
+        //  height: 200px;
+        //}
+
+        &:hover {
+            border: 1px solid $primaryColor;
+            color: $primaryColor;
+            transform: scale(1.1);
+            transition: 0.8s;
+            backdrop-filter: blur(10px);
+        }
+
+        .TitleDescription {
+            .workTitle {
+                font-size: 28px;
+                line-height: 60px;
+                color: $textColor;
+                font-weight: 300;
+                margin-bottom: 33px;
+                @media screen and (max-height: 945px) {
+                    font-size: 24px;
+                }
+            }
+
+            .description {
+                font-weight: 100;
+                font-size: 18px;
+                margin-bottom: 30px;
+                @media screen and (max-height: 945px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

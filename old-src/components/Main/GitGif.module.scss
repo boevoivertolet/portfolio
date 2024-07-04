@@ -1,0 +1,39 @@
+@import 'src/common/styles/sass/variables';
+
+.gifContainer {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    .gitGif {
+        border: 2px solid $textColor;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 200px;
+        height: 200px;
+        transition: transform 1.5s;
+        cursor: pointer;
+
+        span {
+            font-weight: 100;
+            font-size: 15px;
+            color: $textColor;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        .gitImg {
+            width: 180px;
+            transition: transform 1.5s;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+@import './sass/variables.scss';
+
+.home_page {
+    .greetings {
+        opacity: 0;
+        transition: 1s;
+        margin-top: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        border-radius: $borderRadius;
+
+        p {
+            margin-top: 50px;
+        }
+
+        .photo {
+            img {
+                width: 100%;
+                max-width: 500px;
+                height: auto;
+                border-radius: $borderRadius;
+                box-shadow: $shadow;
+            }
+        }
+
+        .greetings_text {
+            width: 100%;
+            max-width: 900px;
+            font-size: large;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+    .show {
+        opacity: 1;
+    }
+}
