@@ -11,7 +11,7 @@ export const PortfolioRoutes = () => {
         <>
             <Routes>
                 <Route path="/" element={<Navigate to={'/homePage'} />} />
-                <Route path="/portfolio" element={<Navigate to={'/homePage'} />} />
+                {/* <Route path="/portfolio" element={<Navigate to={'/homePage'} />} /> */}
 
                 <Route path="/portfolioPage" element={<PortfolioPage />} />
                 <Route path="/aboutPage" element={<AboutPage />} />
