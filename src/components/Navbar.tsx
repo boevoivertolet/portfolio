@@ -9,33 +9,33 @@ export const Navbar = () => {
     return (
         <div className={s.navbar}>
             <div className={vue ? s.navbar_menu_show : s.navbar_menu_hide}>
-                <NavLink title={'home'} to={'/homePage'} className={({ isActive }) => (isActive ? s.active : '')}>
+                <NavLink title={'home'} to={'portfolio/homePage'} className={({ isActive }) => (isActive ? s.active : '')}>
                     <i className="fa-solid fa-house">
                         <span>home</span>
                     </i>
                 </NavLink>
                 <NavLink
                     title={'portfolio'}
-                    to={'/portfolioPage'}
+                    to={'portfolio/portfolioPage'}
                     className={({ isActive }) => (isActive ? s.active : '')}
                 >
                     <i className="fa-solid fa-user">
                         <span>portfolio</span>
                     </i>
                 </NavLink>
-                <NavLink title={'about'} to={'/aboutPage'} className={({ isActive }) => (isActive ? s.active : '')}>
+                <NavLink title={'about'} to={'portfolio/aboutPage'} className={({ isActive }) => (isActive ? s.active : '')}>
                     <i className="fa-solid fa-address-card">
                         <span>about</span>
                     </i>
                 </NavLink>
-                <NavLink title={'my works'} to={'/worksPage'} className={({ isActive }) => (isActive ? s.active : '')}>
+                <NavLink title={'my works'} to={'portfolio/worksPage'} className={({ isActive }) => (isActive ? s.active : '')}>
                     <i className="fa-solid fa-diagram-project">
                         <span>my works</span>
                     </i>
                 </NavLink>
                 <NavLink
                     title={'contacts'}
-                    to={'/contactsPage'}
+                    to={'portfolio/contactsPage'}
                     className={({ isActive }) => (isActive ? s.active : '')}
                 >
                     <i className="fa-solid fa-address-book">
