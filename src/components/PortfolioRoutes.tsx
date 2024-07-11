@@ -10,14 +10,14 @@ export const PortfolioRoutes = () => {
     return (
         <>
             <Routes>
-                <Route path="/" element={<Navigate to={'portfolio'} />} />
-                <Route path="/portfolio" element={<Navigate to={'portfolio/homePage'} />} />
+                <Route path="/" element={<Navigate to={'/homePage'} />} />
+                <Route path="/portfolio" element={<Navigate to={'/homePage'} />} />
 
-                <Route path="portfolio/portfolioPage" element={<PortfolioPage />} />
-                <Route path="portfolio/aboutPage" element={<AboutPage />} />
-                <Route path="portfolio/worksPage" element={<WorksPage />} />
-                <Route path="portfolio/contactsPage" element={<ContactsPage />} />
-                <Route path="portfolio/homePage" element={<HomePage />} />
+                <Route path="/portfolioPage" element={<PortfolioPage />} />
+                <Route path="/aboutPage" element={<AboutPage />} />
+                <Route path="/worksPage" element={<WorksPage />} />
+                <Route path="/contactsPage" element={<ContactsPage />} />
+                <Route path="/homePage" element={<HomePage />} />
 
                 <Route path={'/*'} element={<ErrorPage />} />
             </Routes>
